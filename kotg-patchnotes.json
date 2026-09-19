@@ -2,11 +2,12 @@
   "$schema": "./patchnotes.schema.json",
   "schema": 1,
   "season": { "fr": "SAISON 01 · SIÈGE", "en": "SEASON 01 · SIEGE" },
-  "discord": { "url": "https://discord.gg/TODO", "label": "#patch-notes" },
+  "discord": { "url": "https://discord.gg/votre-invitation", "label": "#patch-notes" },
   "versions": [
     {
       "num": "1.0.4",
       "title": { "fr": "MISE À JOUR DE MI-SAISON", "en": "MID-SEASON UPDATE" },
+      "image": "kotg/images/1.0.4/cover.png",
       "date": "2026-09-11T09:00:00Z",
       "sections": [
         {
