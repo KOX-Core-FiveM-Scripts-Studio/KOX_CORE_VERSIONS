@@ -1,0 +1,101 @@
+{
+  "$schema": "./patchnotes.schema.json",
+  "schema": 1,
+  "season": { "fr": "SAISON 01 · SIÈGE", "en": "SEASON 01 · SIEGE" },
+  "discord": { "url": "https://discord.gg/TODO", "label": "#patch-notes" },
+  "versions": [
+    {
+      "num": "1.0.4",
+      "title": { "fr": "MISE À JOUR DE MI-SAISON", "en": "MID-SEASON UPDATE" },
+      "date": "2026-09-11T09:00:00Z",
+      "sections": [
+        {
+          "title": { "fr": "NOUVEAUTÉS", "en": "WHAT'S NEW" },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": { "fr": "MODE GULAG ROYALE", "en": "GULAG ROYALE MODE" },
+              "body": {
+                "fr": "Une file dédiée où chaque élimination renvoie en arène : les duels s’enchaînent jusqu’au dernier survivant.",
+                "en": "A dedicated queue where every elimination sends you back to the arena: duels chain until the last survivor."
+              }
+            },
+            {
+              "kind": "new",
+              "title": "ARÈNE « DÉPÔT »",
+              "body": "Deuxième arène de Gulag, plus ouverte, avec deux niveaux et un passage central à découvert."
+            }
+          ]
+        },
+        {
+          "title": "LE GULAG",
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": "CHRONOMÈTRE DE DUEL",
+              "body": "Le duel passe de 45 à 40 secondes. En cas d’égalité, le drapeau central apparaît 5 secondes plus tôt."
+            },
+            {
+              "kind": "fix",
+              "title": "SPECTATEURS BLOQUÉS",
+              "body": "Correction d’un cas où les coéquipiers restaient sur un écran noir en regardant un duel démarré pendant leur chute."
+            }
+          ]
+        },
+        {
+          "title": "INTERFACE ET PROGRESSION",
+          "tone": "cyan",
+          "items": [
+            { "kind": "mod", "title": "RAPPORT DE FIN DE PARTIE", "body": "Ajout de l’historique des 7 dernières parties." },
+            { "kind": "fix", "title": "XP DE BATTLE PASS", "body": "Les paliers gagnés pendant une déconnexion sont désormais versés à la reconnexion." }
+          ]
+        }
+      ],
+      "highlights": [
+        { "label": "AJOUT MAJEUR", "title": "GULAG ROYALE", "body": "Une file entièrement bâtie autour du duel 1v1.", "tone": "accent" },
+        { "label": "ÉQUILIBRAGE", "title": "DUELS PLUS COURTS", "body": "40 secondes, 5 armes, décisions plus rapides.", "tone": "hot" },
+        { "label": "QUALITÉ DE VIE", "title": "PARTAGE DISCORD", "body": "Résumé de partie exportable en un clic.", "tone": "cyan" }
+      ],
+      "balance": [
+        { "name": "KRV-45", "change": "RECUL −8 %", "direction": "up" },
+        { "name": "VZ-9", "change": "DÉGÂTS À MOYENNE PORTÉE +6 %", "direction": "up" },
+        { "name": "M-SIÈGE", "change": "CADENCE −5 %", "direction": "down" }
+      ]
+    },
+    {
+      "num": "1.0.3",
+      "title": "CORRECTIF DE STABILITÉ",
+      "date": "2026-09-04",
+      "sections": [
+        {
+          "title": "CORRECTIONS",
+          "items": [
+            { "kind": "fix", "title": "BOUTIQUE VIDE", "body": "La rotation quotidienne ne s’affichait plus après une longue session sans redémarrage." },
+            { "kind": "mod", "title": "FILE D’ATTENTE", "body": "Répartition améliorée entre les régions aux heures de pointe." }
+          ]
+        }
+      ],
+      "highlights": [
+        { "label": "STABILITÉ", "title": "FIN DE PARTIE", "body": "Plus de déconnexion au moment du rapport.", "tone": "success" }
+      ]
+    },
+    {
+      "num": "1.0.0",
+      "tag": { "fr": "LANCEMENT", "en": "LAUNCH" },
+      "title": "OUVERTURE PUBLIQUE · SAISON 01",
+      "date": "2026-08-14",
+      "sections": [
+        {
+          "title": "AU LANCEMENT",
+          "tone": "accent",
+          "items": [
+            { "kind": "new", "title": "LE GULAG", "body": "Duel 1v1 pour revenir en jeu après la première élimination — le cœur du jeu." },
+            { "kind": "new", "title": "BATTLE PASS SAISON 01", "body": "100 paliers, piste gratuite et premium, 30 jours de saison." }
+          ]
+        }
+      ]
+    }
+  ]
+}
