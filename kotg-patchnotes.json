@@ -1,22 +1,40 @@
 {
   "$schema": "./patchnotes.schema.json",
-  "schema": 1,
-  "season": { "fr": "SAISON 01 · SIÈGE", "en": "SEASON 01 · SIEGE" },
-  "discord": { "url": "https://discord.gg/votre-invitation", "label": "#patch-notes" },
+  "schema": 2,
+  "season": {
+    "fr": "SAISON 01 · SIÈGE",
+    "en": "SEASON 01 · SIEGE"
+  },
+  "discord": {
+    "url": "https://discord.gg/votre-invitation",
+    "label": {
+      "fr": "#patch-notes",
+      "en": "#patch-notes"
+    }
+  },
   "versions": [
     {
       "num": "1.0.4",
-      "title": { "fr": "MISE À JOUR DE MI-SAISON", "en": "MID-SEASON UPDATE" },
+      "title": {
+        "fr": "MISE À JOUR DE MI-SAISON",
+        "en": "MID-SEASON UPDATE"
+      },
       "image": "kotg/images/1.0.4/cover.png",
       "date": "2026-09-11T09:00:00Z",
       "sections": [
         {
-          "title": { "fr": "NOUVEAUTÉS", "en": "WHAT'S NEW" },
+          "title": {
+            "fr": "NOUVEAUTÉS",
+            "en": "WHAT'S NEW"
+          },
           "tone": "accent",
           "items": [
             {
               "kind": "new",
-              "title": { "fr": "MODE GULAG ROYALE", "en": "GULAG ROYALE MODE" },
+              "title": {
+                "fr": "MODE GULAG ROYALE",
+                "en": "GULAG ROYALE MODE"
+              },
               "body": {
                 "fr": "Une file dédiée où chaque élimination renvoie en arène : les duels s’enchaînent jusqu’au dernier survivant.",
                 "en": "A dedicated queue where every elimination sends you back to the arena: duels chain until the last survivor."
@@ -24,76 +42,261 @@
             },
             {
               "kind": "new",
-              "title": "ARÈNE « DÉPÔT »",
-              "body": "Deuxième arène de Gulag, plus ouverte, avec deux niveaux et un passage central à découvert."
+              "title": {
+                "fr": "ARÈNE « DÉPÔT »",
+                "en": "“DEPOT” ARENA"
+              },
+              "body": {
+                "fr": "Deuxième arène de Gulag, plus ouverte, avec deux niveaux et un passage central à découvert.",
+                "en": "A second, more open Gulag arena with two levels and an exposed central passage."
+              }
             }
           ]
         },
         {
-          "title": "LE GULAG",
+          "title": {
+            "fr": "LE GULAG",
+            "en": "THE GULAG"
+          },
           "tone": "hot",
           "items": [
             {
               "kind": "mod",
-              "title": "CHRONOMÈTRE DE DUEL",
-              "body": "Le duel passe de 45 à 40 secondes. En cas d’égalité, le drapeau central apparaît 5 secondes plus tôt."
+              "title": {
+                "fr": "CHRONOMÈTRE DE DUEL",
+                "en": "DUEL TIMER"
+              },
+              "body": {
+                "fr": "Le duel passe de 45 à 40 secondes. En cas d’égalité, le drapeau central apparaît 5 secondes plus tôt.",
+                "en": "Duels now last 40 seconds instead of 45. If the duel is tied, the central flag appears 5 seconds earlier."
+              }
             },
             {
               "kind": "fix",
-              "title": "SPECTATEURS BLOQUÉS",
-              "body": "Correction d’un cas où les coéquipiers restaient sur un écran noir en regardant un duel démarré pendant leur chute."
+              "title": {
+                "fr": "SPECTATEURS BLOQUÉS",
+                "en": "STUCK SPECTATORS"
+              },
+              "body": {
+                "fr": "Correction d’un cas où les coéquipiers restaient sur un écran noir en regardant un duel démarré pendant leur chute.",
+                "en": "Fixed an issue where teammates remained on a black screen while spectating a duel that started during their fall."
+              }
             }
           ]
         },
         {
-          "title": "INTERFACE ET PROGRESSION",
+          "title": {
+            "fr": "INTERFACE ET PROGRESSION",
+            "en": "INTERFACE AND PROGRESSION"
+          },
           "tone": "cyan",
           "items": [
-            { "kind": "mod", "title": "RAPPORT DE FIN DE PARTIE", "body": "Ajout de l’historique des 7 dernières parties." },
-            { "kind": "fix", "title": "XP DE BATTLE PASS", "body": "Les paliers gagnés pendant une déconnexion sont désormais versés à la reconnexion." }
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RAPPORT DE FIN DE PARTIE",
+                "en": "POST-MATCH REPORT"
+              },
+              "body": {
+                "fr": "Ajout de l’historique des 7 dernières parties.",
+                "en": "Added a history of your last 7 matches."
+              }
+            },
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "XP DE BATTLE PASS",
+                "en": "BATTLE PASS XP"
+              },
+              "body": {
+                "fr": "Les paliers gagnés pendant une déconnexion sont désormais versés à la reconnexion.",
+                "en": "Tiers earned during a disconnection are now credited when you reconnect."
+              }
+            }
           ]
         }
       ],
       "highlights": [
-        { "label": "AJOUT MAJEUR", "title": "GULAG ROYALE", "body": "Une file entièrement bâtie autour du duel 1v1.", "tone": "accent" },
-        { "label": "ÉQUILIBRAGE", "title": "DUELS PLUS COURTS", "body": "40 secondes, 5 armes, décisions plus rapides.", "tone": "hot" },
-        { "label": "QUALITÉ DE VIE", "title": "PARTAGE DISCORD", "body": "Résumé de partie exportable en un clic.", "tone": "cyan" }
+        {
+          "label": {
+            "fr": "AJOUT MAJEUR",
+            "en": "MAJOR ADDITION"
+          },
+          "title": {
+            "fr": "GULAG ROYALE",
+            "en": "GULAG ROYALE"
+          },
+          "body": {
+            "fr": "Une file entièrement bâtie autour du duel 1v1.",
+            "en": "A queue built entirely around 1v1 duels."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "ÉQUILIBRAGE",
+            "en": "BALANCE"
+          },
+          "title": {
+            "fr": "DUELS PLUS COURTS",
+            "en": "SHORTER DUELS"
+          },
+          "body": {
+            "fr": "40 secondes, 5 armes, décisions plus rapides.",
+            "en": "40 seconds, 5 weapons, faster decisions."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "QUALITÉ DE VIE",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "PARTAGE DISCORD",
+            "en": "DISCORD SHARING"
+          },
+          "body": {
+            "fr": "Résumé de partie exportable en un clic.",
+            "en": "Share your match summary with one click."
+          },
+          "tone": "cyan"
+        }
       ],
       "balance": [
-        { "name": "KRV-45", "change": "RECUL −8 %", "direction": "up" },
-        { "name": "VZ-9", "change": "DÉGÂTS À MOYENNE PORTÉE +6 %", "direction": "up" },
-        { "name": "M-SIÈGE", "change": "CADENCE −5 %", "direction": "down" }
+        {
+          "name": {
+            "fr": "KRV-45",
+            "en": "KRV-45"
+          },
+          "change": {
+            "fr": "RECUL −8 %",
+            "en": "RECOIL −8%"
+          },
+          "direction": "up"
+        },
+        {
+          "name": {
+            "fr": "VZ-9",
+            "en": "VZ-9"
+          },
+          "change": {
+            "fr": "DÉGÂTS À MOYENNE PORTÉE +6 %",
+            "en": "MID-RANGE DAMAGE +6%"
+          },
+          "direction": "up"
+        },
+        {
+          "name": {
+            "fr": "M-SIÈGE",
+            "en": "M-SIÈGE"
+          },
+          "change": {
+            "fr": "CADENCE −5 %",
+            "en": "FIRE RATE −5%"
+          },
+          "direction": "down"
+        }
       ]
     },
     {
       "num": "1.0.3",
-      "title": "CORRECTIF DE STABILITÉ",
+      "title": {
+        "fr": "CORRECTIF DE STABILITÉ",
+        "en": "STABILITY HOTFIX"
+      },
       "date": "2026-09-04",
       "sections": [
         {
-          "title": "CORRECTIONS",
+          "title": {
+            "fr": "CORRECTIONS",
+            "en": "FIXES"
+          },
           "items": [
-            { "kind": "fix", "title": "BOUTIQUE VIDE", "body": "La rotation quotidienne ne s’affichait plus après une longue session sans redémarrage." },
-            { "kind": "mod", "title": "FILE D’ATTENTE", "body": "Répartition améliorée entre les régions aux heures de pointe." }
+            {
+              "kind": "fix",
+              "title": {
+                "fr": "BOUTIQUE VIDE",
+                "en": "EMPTY STORE"
+              },
+              "body": {
+                "fr": "La rotation quotidienne ne s’affichait plus après une longue session sans redémarrage.",
+                "en": "The daily rotation no longer appeared after a long session without a restart."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "FILE D’ATTENTE",
+                "en": "MATCHMAKING QUEUE"
+              },
+              "body": {
+                "fr": "Répartition améliorée entre les régions aux heures de pointe.",
+                "en": "Improved distribution across regions during peak hours."
+              }
+            }
           ]
         }
       ],
       "highlights": [
-        { "label": "STABILITÉ", "title": "FIN DE PARTIE", "body": "Plus de déconnexion au moment du rapport.", "tone": "success" }
+        {
+          "label": {
+            "fr": "STABILITÉ",
+            "en": "STABILITY"
+          },
+          "title": {
+            "fr": "FIN DE PARTIE",
+            "en": "END OF MATCH"
+          },
+          "body": {
+            "fr": "Plus de déconnexion au moment du rapport.",
+            "en": "No more disconnections when the match report appears."
+          },
+          "tone": "success"
+        }
       ]
     },
     {
       "num": "1.0.0",
-      "tag": { "fr": "LANCEMENT", "en": "LAUNCH" },
-      "title": "OUVERTURE PUBLIQUE · SAISON 01",
+      "tag": {
+        "fr": "LANCEMENT",
+        "en": "LAUNCH"
+      },
+      "title": {
+        "fr": "OUVERTURE PUBLIQUE · SAISON 01",
+        "en": "PUBLIC LAUNCH · SEASON 01"
+      },
       "date": "2026-08-14",
       "sections": [
         {
-          "title": "AU LANCEMENT",
+          "title": {
+            "fr": "AU LANCEMENT",
+            "en": "AT LAUNCH"
+          },
           "tone": "accent",
           "items": [
-            { "kind": "new", "title": "LE GULAG", "body": "Duel 1v1 pour revenir en jeu après la première élimination — le cœur du jeu." },
-            { "kind": "new", "title": "BATTLE PASS SAISON 01", "body": "100 paliers, piste gratuite et premium, 30 jours de saison." }
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LE GULAG",
+                "en": "THE GULAG"
+              },
+              "body": {
+                "fr": "Duel 1v1 pour revenir en jeu après la première élimination — le cœur du jeu.",
+                "en": "A 1v1 duel to return to the match after your first elimination — the heart of the game."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "BATTLE PASS SAISON 01",
+                "en": "SEASON 01 BATTLE PASS"
+              },
+              "body": {
+                "fr": "100 paliers, piste gratuite et premium, 30 jours de saison.",
+                "en": "100 tiers, free and premium tracks, and a 30-day season."
+              }
+            }
           ]
         }
       ]
