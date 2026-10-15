@@ -6,6 +6,396 @@
   },
   "versions": [
     {
+      "num": "1.3.0",
+      "title": {
+        "fr": "PROGRESSION, QG ET ARSENAL",
+        "en": "PROGRESSION, HQ & ARSENAL"
+      },
+      "date": "2026-10-15",
+      "sections": [
+        {
+          "title": {
+            "fr": "PROGRESSION ET RÉCOMPENSES",
+            "en": "PROGRESSION & REWARDS"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "RENDEZ-VOUS QUOTIDIEN",
+                "en": "DAILY REWARDS"
+              },
+              "body": {
+                "fr": "Un nouveau calendrier de récompenses a été développé dans l’accueil : une récupération par jour, avec de l’XP de compte et des coins. Le calendrier comprend 90 étapes, en trois chapitres de 30 jours, puis recommence. Contrôles en jeu à finaliser.",
+                "en": "A new reward calendar has been developed for the home screen: one claim per day granting account XP and coins. It spans 90 steps across three 30-day chapters before cycling again. In-game verification is still pending."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "BONUS DE SÉRIE",
+                "en": "CLAIM STREAK BONUS"
+              },
+              "body": {
+                "fr": "Les récupérations consécutives sont suivies : chaque série de sept jours donne un bonus de 100 XP. Une absence interrompt la série sans effacer la progression du calendrier.",
+                "en": "Consecutive claims are tracked: every seven-day streak grants a bonus of 100 XP. Missing a day resets the streak but preserves calendar progress."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "PROGRESSION DU COMPTE",
+                "en": "ACCOUNT PROGRESSION"
+              },
+              "body": {
+                "fr": "Le crédit d’XP et le passage de niveau sont intégrés aux récompenses quotidiennes. Les crédits d’XP et de coins utilisent des transactions et des contrôles pour éviter les doublons.",
+                "en": "XP grants and account leveling are now integrated into daily rewards. XP and coin credits use transactions and safeguards to prevent duplicate claims."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "QUARTIER GÉNÉRAL",
+            "en": "HEADQUARTERS"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "GALERIE D’ARMES",
+                "en": "WEAPON SHOWCASE GALLERY"
+              },
+              "body": {
+                "fr": "Cinq présentoirs dédiés prennent place dans le hangar du QG pour exposer des finitions d’armes. Une inspection permet de manipuler la caméra, faire pivoter l’arme et zoomer. Positionnement, collisions et rendus animés restent à vérifier dans FiveM.",
+                "en": "Five custom weapon displays have been added to the HQ hangar to showcase weapon finishes. An inspection mode supports camera controls, weapon rotation, and zoom. Placement, collisions, and animated rendering still require FiveM validation."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PODIUM DU CLASSEMENT",
+                "en": "LEADERBOARD PODIUM"
+              },
+              "body": {
+                "fr": "Trois socles personnalisés or, argent et bronze remplacent les anciens supports du podium. Les modèles sont conçus pour accueillir les personnages et leurs éléments de classement.",
+                "en": "Three custom gold, silver, and bronze podium models replace the old supports. The models are designed to display ranked characters and their leaderboard details."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PORTIQUE ET ÉCRAN DU QG",
+                "en": "HQ LEADERBOARD DISPLAY"
+              },
+              "body": {
+                "fr": "Un nouveau portique WARBREACH avec écran intégré accompagne le podium. Son affichage reprend les informations du classement ; implantation, lisibilité et collisions sont encore en recette.",
+                "en": "A new WARBREACH frame with an embedded display now complements the podium. It shows leaderboard information; placement, readability, and collisions are still being tested."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "PARCOURS DU QG",
+                "en": "HQ NAVIGATION"
+              },
+              "body": {
+                "fr": "Les interactions du hangar, les points de présentation et plusieurs contrôles du menu ont été réorganisés pour accueillir les nouveaux espaces.",
+                "en": "Hangar interactions, showcase locations, and several menu controls have been reworked to accommodate the new HQ areas."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "PARTIES ET INTERFACE",
+            "en": "MATCHES & INTERFACE"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "TABLEAU DE PARTIE",
+                "en": "IN-MATCH SCOREBOARD"
+              },
+              "body": {
+                "fr": "Un tableau d’escouade consultable pendant la partie a été ajouté, avec une touche M configurable. Il actualise les données du match et propose un accès à la carte native de GTA.",
+                "en": "A squad scoreboard has been added for use during matches, with a configurable M key. It refreshes match data and provides access to GTA’s native map."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "BILAN ET EXTRACTION",
+                "en": "MATCH SUMMARY & EXTRACTION"
+              },
+              "body": {
+                "fr": "Les modules de fin de partie, la scène d’escouade et l’extraction cinématique ont reçu de nouveaux ajustements. Le résultat reste contrôlé par le serveur ; la mise en scène doit être validée en situation.",
+                "en": "The end-of-match modules, squad summary scene, and cinematic extraction have received further adjustments. The server remains authoritative for results; the presentation still needs in-game testing."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RÉSURGENCE ET INTERACTIONS",
+                "en": "RESURGENCE & INTERACTIONS"
+              },
+              "body": {
+                "fr": "Les séquences de réanimation, les retours en jeu, le loot et les largages de ravitaillement ont été retravaillés avec leurs contrôles et tests associés.",
+                "en": "Revives, redeployments, loot interactions, and supply drops have been refined alongside their supporting checks and tests."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "ITINÉRAIRE GPS 3D",
+                "en": "3D GPS ROUTE"
+              },
+              "body": {
+                "fr": "Une ressource de navigation dessine un trajet directement au-dessus de la route lorsqu’un conducteur ou passager dispose d’un point GPS. Le tracé suit la route calculée par GTA et limite son rendu à la zone proche.",
+                "en": "A navigation resource draws a route directly above the road when a vehicle occupant has a GPS waypoint. It follows GTA’s route data and limits rendering to nearby segments."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ICÔNES ET AFFICHAGES DU HUD",
+                "en": "HUD ICONS & OVERLAYS"
+              },
+              "body": {
+                "fr": "La bibliothèque d’icônes d’armes a été rafraîchie et le HUD accueille le nouveau tableau de partie. L’interface, le focus et la minicarte ont également reçu des ajustements.",
+                "en": "The weapon icon library has been refreshed and the HUD now includes the new match scoreboard. The interface, focus handling, and minimap have also been adjusted."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "ARMES ET COMBAT",
+            "en": "WEAPONS & COMBAT"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "COLLECTIONS DE CAMOUFLAGES ÉTENDUES",
+                "en": "EXPANDED CAMOUFLAGE COLLECTIONS"
+              },
+              "body": {
+                "fr": "De nouveaux packs de huit finitions sont préparés pour la Combat MG, le Combat Pistol, les fusils de précision Heavy Sniper et Marksman, le Micro SMG, les fusils à pompe Pump et Sawed-Off, le SMG et le Sniper Rifle. L’enregistrement et l’affichage de chaque finition restent à confirmer en jeu.",
+                "en": "New eight-finish packs have been prepared for the Combat MG, Combat Pistol, Heavy Sniper and Marksman rifles, Micro SMG, Pump and Sawed-Off shotguns, SMG, and Sniper Rifle. Each finish still needs in-game registration and rendering checks."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RESSOURCES D’ARMES RÉORGANISÉES",
+                "en": "REORGANIZED WEAPON ASSETS"
+              },
+              "body": {
+                "fr": "Les packs de camouflages ont été regroupés dans une nouvelle arborescence dédiée. Les collections de fusils d’assaut et de carabines déjà présentes sont conservées et complétées par de nouvelles ressources.",
+                "en": "Camouflage packs have been consolidated under a dedicated resource structure. Existing assault rifle and carbine collections are retained alongside additional weapon resources."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "CAMOUFLAGES ANIMÉS — DÉVELOPPEMENT",
+                "en": "ANIMATED CAMOS — IN DEVELOPMENT"
+              },
+              "body": {
+                "fr": "Plusieurs ressources d’essai de finitions animées ont été ajoutées ou déplacées pour différents modèles d’armes. Les tests de chargement, de rendu et d’animation ne constituent pas une validation de leur fonctionnement en match.",
+                "en": "Several animated-finish test resources have been added or moved for different weapon models. Asset loading and animation tests do not confirm that they work reliably during matches."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DÉPLACEMENTS TACTIQUES 3.0.1 — TEST",
+                "en": "TACTICAL MOVEMENT 3.0.1 — TESTING"
+              },
+              "body": {
+                "fr": "Le nouveau module rassemble glissade avant, plongeons directionnels, position allongée persistante et visée/tir au sol avec animations YCD personnalisées. Les transitions, orientations et interactions avec les armes nécessitent des essais en jeu.",
+                "en": "The new module combines forward slides, directional dives, persistent prone movement, and aiming/firing while prone using custom YCD animations. Transitions, orientation, and weapon interactions still need in-game validation."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "TIR EN VÉHICULE — PROTOTYPE",
+                "en": "VEHICLE SHOOTING — PROTOTYPE"
+              },
+              "body": {
+                "fr": "WARBREACH Drive-by introduit des postures de tir adaptées aux sièges et aux familles de véhicules, déclenchées en visant. Les modèles animés sont générés et contrôlés hors jeu ; leur rendu et leurs collisions doivent encore être vérifiés dans FiveM.",
+                "en": "WARBREACH Drive-by introduces shooting poses tailored to vehicle seats and body styles, triggered while aiming. The animation assets have been generated and checked outside the game; rendering and collisions still need FiveM testing."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "IMMERSION ET ÉCOSYSTÈME",
+            "en": "IMMERSION & ECOSYSTEM"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "ÉCRAN DE CHARGEMENT WARBREACH",
+                "en": "WARBREACH LOADING SCREEN"
+              },
+              "body": {
+                "fr": "Un nouvel écran de chargement animé associe ambiance militaire, effets atmosphériques, barre de progression réelle, astuces et textes français/anglais. Les événements peuvent être affichés via le flux de patchnotes.",
+                "en": "A new animated loading screen combines a military atmosphere, weather-like effects, real loading progress, rotating tips, and French/English text. Events can be surfaced through the patchnotes feed."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "SITE VITRINE ET IDENTITÉ",
+                "en": "WEBSITE & BRAND IDENTITY"
+              },
+              "body": {
+                "fr": "Le site vitrine a été retravaillé autour de l’identité WARBREACH, notamment sa présentation principale et son podium. Il reste distinct du déploiement effectif sur un hébergement public.",
+                "en": "The website has been refined around the WARBREACH identity, including its main presentation and podium. This code update does not itself confirm public deployment."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "BOT DISCORD",
+                "en": "DISCORD BOT"
+              },
+              "body": {
+                "fr": "Le bot communautaire reçoit des ajustements de présentation, de textes bilingues, de compteurs et de salons vocaux. Les publications déjà présentes sur Discord ne sont pas modifiées automatiquement par ce commit.",
+                "en": "The community bot receives presentation, bilingual text, counter, and voice-channel adjustments. This commit does not automatically update previously published Discord posts."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LABORATOIRE ET FIABILITÉ",
+            "en": "DEVELOPMENT LAB & RELIABILITY"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "KILLCAM MULTI-ACTEURS — VERSION DEV",
+                "en": "MULTI-ACTOR KILLCAM — DEV BUILD"
+              },
+              "body": {
+                "fr": "Un prototype de killcam peut reconstruire une élimination avec le tireur, la victime et jusqu’à quatre joueurs proches. Il exploite des historiques locaux, des animations et un catalogue YCD généré automatiquement. Version développeur non sécurisée pour un serveur public et non équivalente à un replay vidéo.",
+                "en": "A killcam prototype can reconstruct an elimination with the shooter, victim, and up to four nearby players. It uses local history, animations, and an automatically generated YCD catalog. This developer build is not secured for a public server and is not a video replay."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "QUATRE ARÈNES PvP EN PRÉPARATION",
+                "en": "FOUR PvP ARENAS IN PREPARATION"
+              },
+              "body": {
+                "fr": "Les ressources de carte Atoll, Bazaar, Cloister et Topside ont été ajoutées pour des essais d’arène. Leur présence dans le dépôt ne signifie pas qu’un mode PvP public est activé.",
+                "en": "Map resources for Atoll, Bazaar, Cloister, and Topside have been added for arena testing. Their presence in the repository does not mean a public PvP mode is enabled."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "NETTOYAGE DES RESSOURCES",
+                "en": "RESOURCE CLEANUP"
+              },
+              "body": {
+                "fr": "Des ressources obsolètes et plusieurs utilitaires externes ont été retirés ou déplacés. Les prototypes d’animation et de camouflage disposent maintenant d’espaces de test distincts des packs principaux.",
+                "en": "Obsolete resources and several third-party utilities have been removed or relocated. Animation and camouflage prototypes now have separate test areas from the main resource packs."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "COUVERTURE DE TESTS",
+                "en": "TEST COVERAGE"
+              },
+              "body": {
+                "fr": "De nouveaux tests automatisés et plans de vérification couvrent notamment les récompenses, la galerie, le podium, le tableau de partie et la killcam. Les tests simulés ne remplacent pas les essais multijoueurs dans FiveM.",
+                "en": "New automated checks and test plans cover daily rewards, the gallery, podium, match scoreboard, and killcam. Simulated tests do not replace multiplayer validation inside FiveM."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "NOUVEAU",
+            "en": "NEW"
+          },
+          "title": {
+            "fr": "RÉCOMPENSES QUOTIDIENNES",
+            "en": "DAILY REWARDS"
+          },
+          "body": {
+            "fr": "Un calendrier personnel de 90 récompenses avec XP, coins et bonus de série.",
+            "en": "A personal 90-reward calendar with XP, coins, and streak bonuses."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "QUARTIER GÉNÉRAL",
+            "en": "HEADQUARTERS"
+          },
+          "title": {
+            "fr": "GALERIE ET PODIUM",
+            "en": "GALLERY & PODIUM"
+          },
+          "body": {
+            "fr": "Cinq présentoirs d’armes, trois podiums et un nouvel écran de classement.",
+            "en": "Five weapon displays, three podiums, and a new leaderboard screen."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "GAMEPLAY",
+            "en": "GAMEPLAY"
+          },
+          "title": {
+            "fr": "TABLEAU DE PARTIE",
+            "en": "MATCH SCOREBOARD"
+          },
+          "body": {
+            "fr": "Consultation des informations de l’escouade et accès à la carte pendant le match.",
+            "en": "Squad information and quick map access during a match."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "EN DÉVELOPPEMENT",
+            "en": "IN DEVELOPMENT"
+          },
+          "title": {
+            "fr": "KILLCAM MULTI-ACTEURS",
+            "en": "MULTI-ACTOR KILLCAM"
+          },
+          "body": {
+            "fr": "Reconstitution expérimentale des éliminations avec les joueurs proches ; non prête pour la production.",
+            "en": "Experimental elimination reconstruction with nearby players; not production-ready."
+          },
+          "tone": "muted"
+        }
+      ]
+    },
+    {
       "num": "1.2.0",
       "tag": {
         "fr": "DÉVELOPPEMENT",
