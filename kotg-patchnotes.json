@@ -126,3 +126,651 @@
                 "en": "GAS VISUAL EFFECTS"
               },
               "body": {
+                "fr": "Travail sur le rendu visuel du mur de gaz et les informations de zone affichées aux joueurs. Les réglages de position et de comportement nécessitent des tests en jeu.",
+                "en": "Gas-wall visuals and zone feedback have been updated. Placement and behavior still require in-game tuning."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "APPARITION ET VISIBILITÉ DU BUTIN",
+                "en": "LOOT SPAWNING & VISIBILITY"
+              },
+              "body": {
+                "fr": "Améliorations du placement des objets, de la récupération des éléments réseau et de la synchronisation des caisses pour réduire les objets manquants ou mal positionnés.",
+                "en": "Object placement, network recovery and crate synchronization were refined to reduce missing or misplaced loot."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "INTERACTIONS ET BRUITAGES",
+                "en": "INTERACTIONS & AUDIO"
+              },
+              "body": {
+                "fr": "Ajustements de la détection du butin ciblé, des sons de ramassage et des effets sonores de proximité des caisses.",
+                "en": "Targeted loot detection, pickup sounds and crate proximity audio received adjustments."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "SUIVI DES VÉHICULES",
+                "en": "VEHICLE LOCATION TOOLS"
+              },
+              "body": {
+                "fr": "Ajout d’outils de repérage pour vérifier les emplacements de véhicules terrestres, bateaux et hélicoptères sur Cayo Perico.",
+                "en": "Location tools were added to review ground vehicle, boat and helicopter spawn points across Cayo Perico."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "INTERFACE ET INFRASTRUCTURE",
+            "en": "INTERFACE & INFRASTRUCTURE"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "NOTES DE MISE À JOUR BILINGUES",
+                "en": "BILINGUAL PATCH NOTES"
+              },
+              "body": {
+                "fr": "Évolution du format des patchnotes en français et en anglais, avec contrôles de cohérence et préparation de la synchronisation GitHub et Discord.",
+                "en": "The patch notes format now supports French and English with consistency checks and preparation for GitHub and Discord synchronization."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "HUD DE RÉSURGENCE",
+                "en": "RESURGENCE HUD"
+              },
+              "body": {
+                "fr": "Ajustements de l’affichage des informations d’escouade, des retours en jeu et du bilan de partie.",
+                "en": "Squad information, redeployment feedback and post-match summary displays were refined."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "LABORATOIRE DE DÉVELOPPEMENT",
+            "en": "DEVELOPMENT LAB"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DÉPLACEMENTS TACTIQUES — PROTOTYPE",
+                "en": "TACTICAL MOVEMENT — PROTOTYPE"
+              },
+              "body": {
+                "fr": "Création d’un moteur expérimental de glissade, de plongeon et de déplacement au sol. La fluidité, les animations et le combat en position allongée nécessitent encore une validation en jeu.",
+                "en": "An experimental engine for sliding, diving and prone movement has been created. Animation quality, fluidity and prone combat still need in-game validation."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "CINÉMATIQUE",
+            "en": "CINEMATIC"
+          },
+          "title": {
+            "fr": "EXTRACTION FINALE",
+            "en": "FINAL EXTRACTION"
+          },
+          "body": {
+            "fr": "Nouvelle séquence de victoire en hélicoptère, en phase de test.",
+            "en": "New helicopter victory sequence, currently in testing."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "title": {
+            "fr": "NOUVELLES FINITIONS",
+            "en": "NEW WEAPON FINISHES"
+          },
+          "body": {
+            "fr": "Huit camouflages de fusil d’assaut et de nouvelles variantes de carabine ajoutés au projet.",
+            "en": "Eight assault rifle finishes and new carbine variants added to the project."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "EN DÉVELOPPEMENT",
+            "en": "WORK IN PROGRESS"
+          },
+          "title": {
+            "fr": "MOUVEMENTS TACTIQUES",
+            "en": "TACTICAL MOVEMENT"
+          },
+          "body": {
+            "fr": "Glissade, plongeon et position allongée : prototype non validé en jeu.",
+            "en": "Sliding, diving and prone movement: prototype not yet validated in-game."
+          },
+          "tone": "muted"
+        }
+      ]
+    },
+    {
+      "num": "1.1.0",
+      "tag": {
+        "fr": "MISE À JOUR MAJEURE",
+        "en": "FEATURE UPDATE"
+      },
+      "title": {
+        "fr": "RÉSURGENCE ET ÉCOSYSTÈME",
+        "en": "RESURGENCE & ECOSYSTEM"
+      },
+      "date": "2026-10-13",
+      "sections": [
+        {
+          "title": {
+            "fr": "MODE RÉSURGENCE",
+            "en": "RESURGENCE MODE"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "BOUCLE DE JEU RÉSURGENCE",
+                "en": "RESURGENCE GAMEPLAY LOOP"
+              },
+              "body": {
+                "fr": "Implémentation des états de mise à terre, élimination, réanimation et retour au combat. Le fonctionnement complet reste soumis aux tests multijoueurs.",
+                "en": "Downed, eliminated, revived and redeployed player states have been implemented. The complete flow still needs multiplayer testing."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "ESCOUADES ET FORMATS DE PARTIE",
+                "en": "SQUADS & MATCH FORMATS"
+              },
+              "body": {
+                "fr": "Structuration des parties en Solo, Duo, Trio et Quatuor, avec gestion des équipes adverses, du placement et de la victoire.",
+                "en": "Match structure now supports Solo, Duo, Trio and Quads, with rival squads, placements and victory handling."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "SPECTATEUR ET RETOUR EN JEU",
+                "en": "SPECTATING & REDEPLOYMENT"
+              },
+              "body": {
+                "fr": "Développement du suivi des coéquipiers après élimination, du compte à rebours de retour et de la réapparition en chute libre.",
+                "en": "Teammate spectating, redeployment countdowns and freefall returns have been developed."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ATTRIBUTION DES ÉLIMINATIONS",
+                "en": "ELIMINATION CREDIT"
+              },
+              "body": {
+                "fr": "Clarification du suivi des mises à terre, des éliminations et des événements associés au kill feed.",
+                "en": "Downs, eliminations and related kill-feed events are now tracked more consistently."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "INTERFACE ET CONFORT",
+            "en": "INTERFACE & QUALITY OF LIFE"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "HUD DE RÉSURGENCE",
+                "en": "RESURGENCE HUD"
+              },
+              "body": {
+                "fr": "Ajout d’affichages pour les états des joueurs, les informations d’escouade et les retours prévus en partie.",
+                "en": "New displays show player states, squad information and upcoming redeployments."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LISIBILITÉ EN COMBAT",
+                "en": "COMBAT READABILITY"
+              },
+              "body": {
+                "fr": "Révision de plusieurs éléments du HUD : kill feed, boussole, minimap, armes, vitalité et marqueurs du monde.",
+                "en": "Several HUD elements were revised: kill feed, compass, minimap, weapons, vitals and world markers."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "AFFICHAGE DES DONNÉES",
+                "en": "DATA DISPLAY RELIABILITY"
+              },
+              "body": {
+                "fr": "Réorganisation de la synchronisation et de la validation des données envoyées à l’interface pour faciliter leur maintenance.",
+                "en": "UI data synchronization and validation were reorganized to improve maintainability."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "ADMINISTRATION ET FIABILITÉ",
+            "en": "ADMINISTRATION & RELIABILITY"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "MENU D’ADMINISTRATION",
+                "en": "ADMINISTRATION MENU"
+              },
+              "body": {
+                "fr": "Réorganisation des actions de gestion des joueurs et du serveur, avec des permissions par rôle et une recherche d’actions.",
+                "en": "Player and server management actions were reorganized with role-based permissions and action search."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "OUTILS D’ADMINISTRATION SANS DOUBLONS",
+                "en": "STREAMLINED ADMIN TOOLS"
+              },
+              "body": {
+                "fr": "Retrait de plusieurs outils déjà couverts par txAdmin afin d’éviter les commandes en double. Les changements restent à valider sur le serveur.",
+                "en": "Several tools already provided by txAdmin were removed to avoid duplication. These changes still require server-side validation."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "INTERFACE FRANÇAIS / ANGLAIS",
+                "en": "FRENCH / ENGLISH INTERFACE"
+              },
+              "body": {
+                "fr": "Harmonisation des textes et des messages d’administration via les fichiers de traduction des ressources.",
+                "en": "Administration labels and messages were standardized through resource translation files."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "MISE À JOUR DES DÉPENDANCES",
+                "en": "DEPENDENCY UPDATE"
+              },
+              "body": {
+                "fr": "Mise à jour de la bibliothèque ox_lib utilisée par les ressources du serveur.",
+                "en": "The ox_lib library used by server resources has been updated."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "COMMUNAUTÉ ET SITE WEB",
+            "en": "COMMUNITY & WEBSITE"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "SITE VITRINE",
+                "en": "SHOWCASE WEBSITE"
+              },
+              "body": {
+                "fr": "Ajout des premières ressources du site présentant le projet, son gameplay et ses éléments visuels ; amélioration du rendu et des animations.",
+                "en": "The project showcase website has been added with gameplay and visual content, followed by presentation and animation refinements."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "BOT DISCORD COMMUNAUTAIRE",
+                "en": "COMMUNITY DISCORD BOT"
+              },
+              "body": {
+                "fr": "Création de la base du bot avec modules de tickets, salons vocaux temporaires, suggestions, signalements et gestion des interactions.",
+                "en": "The Discord bot foundation now includes ticketing, temporary voice channels, suggestions, bug reports and interaction management."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "OUTILS COMMUNAUTAIRES EN PRÉPARATION",
+                "en": "COMMUNITY FEATURES IN PREPARATION"
+              },
+              "body": {
+                "fr": "Préparation de fonctionnalités bilingues pour le suivi des retours, les statistiques et la communication avec les joueurs. La mise en service dépend de la configuration du bot.",
+                "en": "Bilingual feedback tracking, statistics and player communication features are in preparation. Availability depends on bot configuration."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "GAMEPLAY",
+            "en": "GAMEPLAY"
+          },
+          "title": {
+            "fr": "RÉSURGENCE",
+            "en": "RESURGENCE"
+          },
+          "body": {
+            "fr": "Mises à terre, réanimations, spectateur et retour au combat réunis dans une nouvelle boucle de jeu.",
+            "en": "Downs, revives, spectating and redeployment form a new gameplay loop."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "INTERFACE",
+            "en": "INTERFACE"
+          },
+          "title": {
+            "fr": "HUD RESTRUCTURÉ",
+            "en": "REWORKED HUD"
+          },
+          "body": {
+            "fr": "Nouveaux indicateurs de combat et de suivi des escouades.",
+            "en": "New combat and squad-tracking indicators."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "COMMUNAUTÉ",
+            "en": "COMMUNITY"
+          },
+          "title": {
+            "fr": "ÉCOSYSTÈME DISCORD",
+            "en": "DISCORD ECOSYSTEM"
+          },
+          "body": {
+            "fr": "Première intégration du bot communautaire et du site de présentation.",
+            "en": "Initial integration of the community bot and showcase website."
+          },
+          "tone": "hot"
+        }
+      ]
+    },
+    {
+      "num": "1.0.1",
+      "tag": {
+        "fr": "RESTRUCTURATION",
+        "en": "RESTRUCTURING"
+      },
+      "title": {
+        "fr": "CONSOLIDATION DU PROJET",
+        "en": "PROJECT CONSOLIDATION"
+      },
+      "date": "2026-10-12",
+      "sections": [
+        {
+          "title": {
+            "fr": "INFRASTRUCTURE",
+            "en": "INFRASTRUCTURE"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ÉVOLUTION DE L’IDENTITÉ",
+                "en": "PROJECT IDENTITY TRANSITION"
+              },
+              "body": {
+                "fr": "Transition du projet KOTG vers une nouvelle organisation et une identité intermédiaire STORMFALL, étape de la construction de WARBREACH.",
+                "en": "The KOTG project transitioned to a new structure and an interim STORMFALL identity as part of WARBREACH’s development."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RÉORGANISATION DES RESSOURCES",
+                "en": "RESOURCE REORGANIZATION"
+              },
+              "body": {
+                "fr": "Restructuration de l’arborescence des ressources principales pour distinguer les composants actifs, les anciennes versions et les outils de développement.",
+                "en": "The main resource structure was reorganized to separate active components, older implementations and development tools."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ARCHIVAGE DES ANCIENS MODULES",
+                "en": "LEGACY MODULE ARCHIVING"
+              },
+              "body": {
+                "fr": "Classement d’anciens scripts et prototypes dans une zone d’archive pour préparer les futures évolutions sans les présenter comme de nouvelles fonctionnalités.",
+                "en": "Older scripts and prototypes were moved into an archive area to prepare for future development without treating them as new player-facing features."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "MAINTENANCE",
+            "en": "MAINTENANCE"
+          },
+          "title": {
+            "fr": "NOUVELLE STRUCTURE",
+            "en": "NEW STRUCTURE"
+          },
+          "body": {
+            "fr": "Une étape de consolidation technique, sans nouvelle mécanique de jeu annoncée.",
+            "en": "A technical consolidation milestone with no new gameplay mechanic announced."
+          },
+          "tone": "muted"
+        }
+      ]
+    },
+    {
+      "num": "1.0.0",
+      "tag": {
+        "fr": "PREMIER JALON",
+        "en": "FIRST MILESTONE"
+      },
+      "title": {
+        "fr": "PERSONNALISATION, BUTIN ET LARGAGES",
+        "en": "CUSTOMIZATION, LOOT & DROPS"
+      },
+      "date": "2026-10-11",
+      "sections": [
+        {
+          "title": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "NOUVELLE COLLECTION D’EMBLÈMES",
+                "en": "NEW EMBLEM COLLECTION"
+              },
+              "body": {
+                "fr": "Ajout de nouveaux visuels au catalogue des emblèmes et mise à jour des données nécessaires à leur présentation.",
+                "en": "New artwork has been added to the emblem catalog, together with updates to its display data."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "NOUVELLES CARTES DE VISITE",
+                "en": "NEW PLAYER BANNERS"
+              },
+              "body": {
+                "fr": "Enrichissement des bannières de profil avec de nouveaux visuels et leurs descriptions en français et en anglais.",
+                "en": "The player banner collection has been expanded with new artwork and French/English descriptions."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PSEUDONYMES EN JEU",
+                "en": "IN-GAME PLAYER NAMETAGS"
+              },
+              "body": {
+                "fr": "Intégration d’un système de pseudonymes au-dessus des joueurs au sein du cœur du serveur.",
+                "en": "An in-game player nametag system has been integrated into the server core."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "BUTIN ET ÉQUIPEMENT",
+            "en": "LOOT & LOADOUTS"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "INTERACTIONS AVEC LE BUTIN",
+                "en": "LOOT INTERACTIONS"
+              },
+              "body": {
+                "fr": "Amélioration de la détection des objets ciblés et du fonctionnement des interactions avec le butin au sol et les caisses.",
+                "en": "Target detection and interaction flows for ground loot and crates have been improved."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "AMBIANCE SONORE DES CAISSES",
+                "en": "CRATE AUDIO CUES"
+              },
+              "body": {
+                "fr": "Ajout de sons de proximité pour les caisses et de bruitages associés aux interactions et ramassages.",
+                "en": "Proximity audio for crates and sound cues for interactions and pickups have been added."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "POINTS DE BUTIN À CAYO PERICO",
+                "en": "CAYO PERICO LOOT LOCATIONS"
+              },
+              "body": {
+                "fr": "Travail sur la répartition et la configuration des emplacements de butin de la carte.",
+                "en": "Loot distribution and spawn-point configuration across the map have been refined."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "SÉLECTION DE CLASSE",
+                "en": "LOADOUT CLASS SELECTION"
+              },
+              "body": {
+                "fr": "Ajout d’une interface de sélection de classe et de son intégration avec les systèmes d’équipement.",
+                "en": "A loadout class selection interface and its equipment-system integration have been added."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "AFFICHAGE ET OUTILS",
+            "en": "HUD & TOOLS"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "REPÈRES ET INDICATIONS",
+                "en": "WAYPOINTS & MARKERS"
+              },
+              "body": {
+                "fr": "Améliorations des repères de navigation et des informations contextuelles affichées dans le HUD.",
+                "en": "Navigation markers and contextual information in the HUD have been refined."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "OUTILS DE PLACEMENT",
+                "en": "SPAWN PLACEMENT TOOLS"
+              },
+              "body": {
+                "fr": "Développement d’outils internes destinés à générer et contrôler les points de butin et de véhicules.",
+                "en": "Internal tools have been developed to generate and review loot and vehicle spawn points."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PREMIERS TRAVAUX SUR LES LARGAGES",
+                "en": "EARLY SUPPLY-DROP WORK"
+              },
+              "body": {
+                "fr": "Développement d’une première implémentation des largages aériens. Cette base a ensuite été remaniée et archivée lors des étapes suivantes.",
+                "en": "An early supply-drop implementation was developed. This version was subsequently reworked and archived in later milestones."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "title": {
+            "fr": "EMBLÈMES ET BANNIÈRES",
+            "en": "EMBLEMS & BANNERS"
+          },
+          "body": {
+            "fr": "Une nouvelle série d’éléments visuels pour personnaliser les profils.",
+            "en": "A new range of visuals to personalize player profiles."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "QUALITÉ DE VIE",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "BUTIN PLUS LISIBLE",
+            "en": "CLEARER LOOT"
+          },
+          "body": {
+            "fr": "Interactions, repères et sons de proximité retravaillés.",
+            "en": "Updated interactions, markers and proximity audio cues."
+          },
+          "tone": "cyan"
+        }
+      ]
+    }
+  ]
+}
