@@ -6,6 +6,273 @@
   },
   "versions": [
     {
+      "num": "1.5.0",
+      "title": {
+        "fr": "L’ARSENAL CHANGE DE VISAGE",
+        "en": "A NEW LOOK FOR THE ARSENAL"
+      },
+      "date": "2026-10-16T15:24:09Z",
+      "sections": [
+        {
+          "title": {
+            "fr": "UN ARSENAL PLUS PERSONNEL",
+            "en": "MAKE THE ARSENAL YOUR OWN"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "101 FINITIONS À DÉCOUVRIR",
+                "en": "101 FINISHES TO DISCOVER"
+              },
+              "body": {
+                "fr": "La collection de WARBREACH rassemble désormais 96 camouflages classiques et cinq finitions animées sur 13 armes. Des styles discrets aux créations les plus marquantes, chaque équipement peut afficher sa propre personnalité.",
+                "en": "WARBREACH’s collection now brings together 96 standard camos and five animated finishes across 13 weapons. From subtle looks to standout designs, every loadout can have its own personality."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DE NOUVEAUX STYLES POUR CHAQUE COMBAT",
+                "en": "MORE STYLES FOR EVERY FIGHT"
+              },
+              "body": {
+                "fr": "Fusils d’assaut, pistolets, mitraillettes, fusils de précision ou fusils à pompe : les nouvelles collections couvrent plusieurs familles d’armes pour varier les styles d’une classe à l’autre.",
+                "en": "Assault rifles, pistols, submachine guns, sniper rifles and shotguns: the expanded collections cover several weapon families, making it easier to switch up your style between loadouts."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LES ARMES DE MÊLÉE ONT AUSSI LEUR STYLE",
+                "en": "MELEE WEAPONS GET THEIR OWN STYLE"
+              },
+              "body": {
+                "fr": "Couteaux, poings américains et couteaux à cran d’arrêt disposent désormais de leurs propres finitions. Même l’équipement de secours mérite une touche personnelle.",
+                "en": "Knives, knuckle dusters and switchblades now have their own finishes. Even your backup weapon deserves a personal touch."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES ARMES À DÉBLOQUER EN PROGRESSANT",
+                "en": "WEAPONS UNLOCK AS YOU PROGRESS"
+              },
+              "body": {
+                "fr": "La progression compte davantage dans le choix des armes : certains modèles s’ouvrent à mesure que les niveaux sont gagnés. Les armes déjà obtenues restent accessibles.",
+                "en": "Progression now plays a bigger role in weapon selection: certain weapons become available as you gain levels. Weapons you have already earned remain accessible."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "VOS CLASSES, VOTRE SIGNATURE",
+            "en": "YOUR LOADOUT, YOUR SIGNATURE"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LES FINITIONS VOUS SUIVENT EN PARTIE",
+                "en": "YOUR FINISHES FOLLOW YOU INTO BATTLE"
+              },
+              "body": {
+                "fr": "Les camouflages choisis sont mieux pris en compte lorsque votre classe est équipée, y compris après un retour au combat. Votre arme conserve l’apparence sélectionnée.",
+                "en": "Selected camos are handled more consistently when equipping your loadout, including after returning to the fight. Your weapon keeps its chosen appearance."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE CARABINE MK II MIEUX PERSONNALISÉE",
+                "en": "MORE OPTIONS FOR THE CARBINE MK II"
+              },
+              "body": {
+                "fr": "Les finitions propres à la Carabine Mk II s’intègrent à la personnalisation de vos classes, sans changer la place qu’occupe l’arme dans votre équipement.",
+                "en": "Carbine Mk II finishes are now integrated into loadout customization without changing the weapon’s place in your equipment."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "VOTRE ARME BLANCHE, VOTRE CHOIX",
+                "en": "YOUR MELEE WEAPON, YOUR CHOICE"
+              },
+              "body": {
+                "fr": "La finition sélectionnée sur une arme de mêlée accompagne désormais la classe enregistrée. Changer de classe ne signifie plus perdre le style choisi.",
+                "en": "Your selected melee finish is now saved with your loadout. Switching between classes no longer means losing your chosen look."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES PERSONNALISATIONS PLUS FIABLES",
+                "en": "MORE CONSISTENT CUSTOMIZATION"
+              },
+              "body": {
+                "fr": "Le choix des accessoires et des finitions a été affiné pour mieux respecter les équipements disponibles et conserver les bons éléments lors des changements de classe.",
+                "en": "Attachment and finish selection has been refined to better reflect what is available and preserve the right equipment when switching loadouts."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "L’ARMURERIE EN DÉTAIL",
+            "en": "A CLOSER LOOK AT THE ARMORY"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "ADMIREZ VOS CAMOUFLAGES DE PLUS PRÈS",
+                "en": "TAKE A CLOSER LOOK AT YOUR CAMOS"
+              },
+              "body": {
+                "fr": "Les aperçus des armes reflètent plus fidèlement les finitions choisies, y compris celles qui transforment leur apparence. La personnalisation gagne en lisibilité.",
+                "en": "Weapon previews now reflect selected finishes more accurately, including those that change the weapon’s overall look. Customization is easier to explore."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE SÉLECTION PLUS AGRÉABLE",
+                "en": "SMOOTHER WEAPON BROWSING"
+              },
+              "body": {
+                "fr": "Les images des finitions, la navigation et les vues rapprochées ont été retravaillées pour comparer plus facilement les possibilités avant de faire son choix.",
+                "en": "Finish images, browsing and close-up views have been refined so you can compare your options more easily before making a choice."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DU MENU JUSQU’AU TERRAIN",
+                "en": "FROM THE MENU TO THE BATTLEFIELD"
+              },
+              "body": {
+                "fr": "L’apparence des armes bénéficie d’un meilleur suivi entre l’armurerie, leur présentation dans le QG et l’équipement porté par le personnage.",
+                "en": "Weapon appearances now carry across more consistently between the armory, HQ displays and the equipment carried by your character."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "UN QG PLUS AGRÉABLE",
+            "en": "A MORE RESPONSIVE HQ"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "UNE GALERIE D’ARMES MIEUX MISE EN VALEUR",
+                "en": "A BETTER WEAPON GALLERY"
+              },
+              "body": {
+                "fr": "Les présentoirs et les armes exposées profitent de nouveaux ajustements pour mettre les finitions en valeur, même lors des inspections rapprochées.",
+                "en": "Display stands and showcased weapons have received further refinements to make every finish shine, even during close-up inspections."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "PLUS DE FLUIDITÉ DANS LE HANGAR",
+                "en": "SMOOTHER MOVEMENT THROUGH THE HANGAR"
+              },
+              "body": {
+                "fr": "Plusieurs affichages du QG ont été allégés pour rendre les déplacements et les interactions plus fluides, notamment autour de la galerie et de l’Intendance.",
+                "en": "Several HQ displays have been streamlined to make movement and interactions smoother, especially around the gallery and the supply counter."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES INFORMATIONS QUI RESTENT À JOUR",
+                "en": "INFORMATION THAT STAYS CURRENT"
+              },
+              "body": {
+                "fr": "Les offres de la boutique, le classement et les informations des joueurs bénéficient d’un affichage mieux synchronisé avec leurs changements.",
+                "en": "Store offers, leaderboards and player information now update more consistently when something changes."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "À L’HORIZON",
+            "en": "ON THE HORIZON"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES COMBATS EN VÉHICULE PLUS VIVANTS",
+                "en": "MORE DYNAMIC VEHICLE COMBAT"
+              },
+              "body": {
+                "fr": "Les animations de tir depuis les véhicules continuent d’évoluer, avec des postures plus naturelles selon les places et la forme des véhicules. Cette amélioration fait encore partie des nouveautés en préparation.",
+                "en": "Vehicle shooting animations continue to evolve, with more natural poses based on seating positions and vehicle shapes. This feature is still being prepared for a future update."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "PERSONNALISATION",
+            "en": "CUSTOMIZATION"
+          },
+          "title": {
+            "fr": "101 FINITIONS AU CATALOGUE",
+            "en": "101 FINISHES IN THE COLLECTION"
+          },
+          "body": {
+            "fr": "Camouflages classiques et créations animées enrichissent le style de 13 armes.",
+            "en": "Standard camos and animated designs bring more personality to 13 weapons."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "NOUVEAUTÉ",
+            "en": "NEW"
+          },
+          "title": {
+            "fr": "LA MÊLÉE SE PERSONNALISE",
+            "en": "MELEE GETS PERSONAL"
+          },
+          "body": {
+            "fr": "Couteaux, poings américains et couteaux à cran d’arrêt rejoignent la personnalisation des classes.",
+            "en": "Knives, knuckle dusters and switchblades join loadout customization."
+          },
+          "tone": "hot"
+        },
+        {
+          "label": {
+            "fr": "CONFORT",
+            "en": "QUALITY OF LIFE"
+          },
+          "title": {
+            "fr": "UN QG PLUS FLUIDE",
+            "en": "A SMOOTHER HQ"
+          },
+          "body": {
+            "fr": "Des aperçus plus fidèles et des affichages mieux ajustés pour profiter de l’armurerie et du hangar.",
+            "en": "More accurate previews and refined displays make the armory and hangar feel smoother."
+          },
+          "tone": "cyan"
+        }
+      ]
+    },
+    {
       "num": "1.4.0",
       "date": "2026-10-16",
       "title": {
