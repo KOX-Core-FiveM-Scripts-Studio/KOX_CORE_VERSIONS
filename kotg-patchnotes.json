@@ -790,68 +790,6 @@
       }
     },
     {
-      "num": "1.0.1",
-      "title": {
-        "fr": "UNE ÉTAPE AVANT LA SUITE",
-        "en": "SETTING UP WHAT’S NEXT"
-      },
-      "date": "2026-10-12",
-      "sections": [
-        {
-          "title": {
-            "fr": "AJUSTEMENTS",
-            "en": "IMPROVEMENTS"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "DES BASES PLUS SOLIDES",
-                "en": "GETTING READY FOR MORE"
-              },
-              "body": {
-                "fr": "Cette étape est consacrée aux fondations de WARBREACH et à l’organisation des différents systèmes du jeu. Un travail discret, mais essentiel pour accueillir les prochaines nouveautés.",
-                "en": "This update focuses on strengthening WARBREACH's foundations and bringing its systems together. A quieter step that clears the way for the next wave of features."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "UN UNIVERS QUI S’AFFIRME",
-                "en": "A STRONGER IDENTITY"
-              },
-              "body": {
-                "fr": "L’univers de WARBREACH se précise, avec une identité plus affirmée et une direction plus cohérente pour les prochaines évolutions du jeu.",
-                "en": "WARBREACH's identity is growing stronger, with a clearer direction for its world and upcoming updates."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "EN COULISSES",
-            "en": "BEHIND THE SCENES"
-          },
-          "title": {
-            "fr": "LA SUITE SE DESSINE",
-            "en": "SETTING THE STAGE"
-          },
-          "body": {
-            "fr": "Une journée plus discrète, consacrée à préparer les prochaines nouveautés.",
-            "en": "A quieter update focused on making room for what's next."
-          },
-          "tone": "muted"
-        }
-      ],
-      "tag": {
-        "fr": "AJUSTEMENTS",
-        "en": "IMPROVEMENTS"
-      }
-    },
-    {
       "num": "1.0.0",
       "title": {
         "fr": "VOTRE STYLE, VOTRE COMBAT",
