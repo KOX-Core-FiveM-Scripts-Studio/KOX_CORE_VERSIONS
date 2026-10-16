@@ -1,15 +1,15 @@
 {
   "schema": 2,
   "season": {
-    "fr": "WARBREACH · JOURNAL DE DÉVELOPPEMENT",
-    "en": "WARBREACH · DEVELOPMENT LOG"
+    "fr": "WARBREACH · NOTES DE MISE À JOUR",
+    "en": "WARBREACH · PATCH NOTES"
   },
   "versions": [
     {
       "num": "1.3.0",
       "title": {
-        "fr": "PROGRESSION, QG ET ARSENAL",
-        "en": "PROGRESSION, HQ & ARSENAL"
+        "fr": "LE QG FAIT PEAU NEUVE",
+        "en": "A NEW LOOK FOR HQ"
       },
       "date": "2026-10-15",
       "sections": [
@@ -23,428 +23,151 @@
             {
               "kind": "new",
               "title": {
-                "fr": "RENDEZ-VOUS QUOTIDIEN",
-                "en": "DAILY REWARDS"
+                "fr": "UN RENDEZ-VOUS CHAQUE JOUR",
+                "en": "A REASON TO COME BACK"
               },
               "body": {
-                "fr": "Un nouveau calendrier de récompenses a été développé dans l’accueil : une récupération par jour, avec de l’XP de compte et des coins. Le calendrier comprend 90 étapes, en trois chapitres de 30 jours, puis recommence. Contrôles en jeu à finaliser.",
-                "en": "A new reward calendar has been developed for the home screen: one claim per day granting account XP and coins. It spans 90 steps across three 30-day chapters before cycling again. In-game verification is still pending."
+                "fr": "Un nouveau calendrier de récompenses prend place à l’accueil. Au programme : de l’XP, des coins et 90 jours de surprises à débloquer, à votre rythme.",
+                "en": "A new rewards calendar is coming to the home screen. Look forward to XP, coins, and 90 days of rewards to claim at your own pace."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "BONUS DE SÉRIE",
-                "en": "CLAIM STREAK BONUS"
+                "fr": "VOTRE FIDÉLITÉ RÉCOMPENSÉE",
+                "en": "STREAKS WORTH KEEPING"
               },
               "body": {
-                "fr": "Les récupérations consécutives sont suivies : chaque série de sept jours donne un bonus de 100 XP. Une absence interrompt la série sans effacer la progression du calendrier.",
-                "en": "Consecutive claims are tracked: every seven-day streak grants a bonus of 100 XP. Missing a day resets the streak but preserves calendar progress."
+                "fr": "Revenez sept jours d’affilée pour gagner 100 XP supplémentaires. Et si vous manquez une journée, pas de panique : votre avancée dans le calendrier reste acquise.",
+                "en": "Check in seven days in a row for an extra 100 XP. Miss a day? Your streak resets, but your progress through the calendar stays right where you left it."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "PROGRESSION DU COMPTE",
-                "en": "ACCOUNT PROGRESSION"
+                "fr": "CHAQUE GAIN COMPTE",
+                "en": "EVERY REWARD COUNTS"
               },
               "body": {
-                "fr": "Le crédit d’XP et le passage de niveau sont intégrés aux récompenses quotidiennes. Les crédits d’XP et de coins utilisent des transactions et des contrôles pour éviter les doublons.",
-                "en": "XP grants and account leveling are now integrated into daily rewards. XP and coin credits use transactions and safeguards to prevent duplicate claims."
+                "fr": "Les récompenses du jour viennent enrichir directement votre profil et votre réserve de coins. De quoi faire progresser votre compte au fil des connexions.",
+                "en": "Daily rewards contribute to your account progress and coin balance, giving every visit a little more purpose."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "QUARTIER GÉNÉRAL",
-            "en": "HEADQUARTERS"
+            "fr": "UN QUARTIER GÉNÉRAL REPENSÉ",
+            "en": "A REIMAGINED HEADQUARTERS"
           },
           "tone": "cyan",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "GALERIE D’ARMES",
-                "en": "WEAPON SHOWCASE GALLERY"
+                "fr": "CINQ ARMES SOUS LES PROJECTEURS",
+                "en": "FIVE WEAPONS IN THE SPOTLIGHT"
               },
               "body": {
-                "fr": "Cinq présentoirs dédiés prennent place dans le hangar du QG pour exposer des finitions d’armes. Une inspection permet de manipuler la caméra, faire pivoter l’arme et zoomer. Positionnement, collisions et rendus animés restent à vérifier dans FiveM.",
-                "en": "Five custom weapon displays have been added to the HQ hangar to showcase weapon finishes. An inspection mode supports camera controls, weapon rotation, and zoom. Placement, collisions, and animated rendering still require FiveM validation."
+                "fr": "Le hangar accueille une galerie dédiée à cinq finitions d’armes. Approchez-vous des présentoirs pour admirer les détails, faire tourner les armes et les observer de plus près.",
+                "en": "Five featured weapon finishes are getting their own display in the hangar. Step up, take a closer look, rotate each weapon, and explore the details."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "PODIUM DU CLASSEMENT",
-                "en": "LEADERBOARD PODIUM"
+                "fr": "LE PODIUM DES MEILLEURS",
+                "en": "A PODIUM FOR THE BEST"
               },
               "body": {
-                "fr": "Trois socles personnalisés or, argent et bronze remplacent les anciens supports du podium. Les modèles sont conçus pour accueillir les personnages et leurs éléments de classement.",
-                "en": "Three custom gold, silver, and bronze podium models replace the old supports. The models are designed to display ranked characters and their leaderboard details."
+                "fr": "Or, argent, bronze : les trois premières places du classement profitent de nouveaux podiums. Une façon plus spectaculaire de mettre les meilleures escouades à l’honneur.",
+                "en": "Gold, silver, bronze: the top three places now have dedicated podiums. A bigger stage for the squads that rise above the rest."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "PORTIQUE ET ÉCRAN DU QG",
-                "en": "HQ LEADERBOARD DISPLAY"
+                "fr": "UN CLASSEMENT QUI EN IMPOSE",
+                "en": "A LEADERBOARD THAT STANDS OUT"
               },
               "body": {
-                "fr": "Un nouveau portique WARBREACH avec écran intégré accompagne le podium. Son affichage reprend les informations du classement ; implantation, lisibilité et collisions sont encore en recette.",
-                "en": "A new WARBREACH frame with an embedded display now complements the podium. It shows leaderboard information; placement, readability, and collisions are still being tested."
+                "fr": "Un grand portique aux couleurs de WARBREACH vient encadrer l’espace du classement. L’écran et les présentations ont été repensés pour donner encore plus de caractère au QG.",
+                "en": "A new WARBREACH-branded display frames the leaderboard area. The screen and its surroundings give HQ a stronger, more distinctive look."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "PARCOURS DU QG",
-                "en": "HQ NAVIGATION"
+                "fr": "UN HANGAR PLUS AGRÉABLE À EXPLORER",
+                "en": "A BETTER HANGAR TO EXPLORE"
               },
               "body": {
-                "fr": "Les interactions du hangar, les points de présentation et plusieurs contrôles du menu ont été réorganisés pour accueillir les nouveaux espaces.",
-                "en": "Hangar interactions, showcase locations, and several menu controls have been reworked to accommodate the new HQ areas."
+                "fr": "Les espaces de présentation et leurs interactions ont été réorganisés. Prenez le temps de faire un tour : le QG a quelques nouveautés à vous montrer.",
+                "en": "The display areas and their interactions have been rearranged. Take a walk around HQ—there is a little more to discover."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "PARTIES ET INTERFACE",
-            "en": "MATCHES & INTERFACE"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "TABLEAU DE PARTIE",
-                "en": "IN-MATCH SCOREBOARD"
-              },
-              "body": {
-                "fr": "Un tableau d’escouade consultable pendant la partie a été ajouté, avec une touche M configurable. Il actualise les données du match et propose un accès à la carte native de GTA.",
-                "en": "A squad scoreboard has been added for use during matches, with a configurable M key. It refreshes match data and provides access to GTA’s native map."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "BILAN ET EXTRACTION",
-                "en": "MATCH SUMMARY & EXTRACTION"
-              },
-              "body": {
-                "fr": "Les modules de fin de partie, la scène d’escouade et l’extraction cinématique ont reçu de nouveaux ajustements. Le résultat reste contrôlé par le serveur ; la mise en scène doit être validée en situation.",
-                "en": "The end-of-match modules, squad summary scene, and cinematic extraction have received further adjustments. The server remains authoritative for results; the presentation still needs in-game testing."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "RÉSURGENCE ET INTERACTIONS",
-                "en": "RESURGENCE & INTERACTIONS"
-              },
-              "body": {
-                "fr": "Les séquences de réanimation, les retours en jeu, le loot et les largages de ravitaillement ont été retravaillés avec leurs contrôles et tests associés.",
-                "en": "Revives, redeployments, loot interactions, and supply drops have been refined alongside their supporting checks and tests."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "ITINÉRAIRE GPS 3D",
-                "en": "3D GPS ROUTE"
-              },
-              "body": {
-                "fr": "Une ressource de navigation dessine un trajet directement au-dessus de la route lorsqu’un conducteur ou passager dispose d’un point GPS. Le tracé suit la route calculée par GTA et limite son rendu à la zone proche.",
-                "en": "A navigation resource draws a route directly above the road when a vehicle occupant has a GPS waypoint. It follows GTA’s route data and limits rendering to nearby segments."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ICÔNES ET AFFICHAGES DU HUD",
-                "en": "HUD ICONS & OVERLAYS"
-              },
-              "body": {
-                "fr": "La bibliothèque d’icônes d’armes a été rafraîchie et le HUD accueille le nouveau tableau de partie. L’interface, le focus et la minicarte ont également reçu des ajustements.",
-                "en": "The weapon icon library has been refreshed and the HUD now includes the new match scoreboard. The interface, focus handling, and minimap have also been adjusted."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "ARMES ET COMBAT",
-            "en": "WEAPONS & COMBAT"
+            "fr": "EN PLEINE PARTIE",
+            "en": "IN THE HEAT OF THE MATCH"
           },
           "tone": "hot",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "COLLECTIONS DE CAMOUFLAGES ÉTENDUES",
-                "en": "EXPANDED CAMOUFLAGE COLLECTIONS"
+                "fr": "GARDEZ UN ŒIL SUR VOTRE ESCOUADE",
+                "en": "KEEP YOUR SQUAD IN SIGHT"
               },
               "body": {
-                "fr": "De nouveaux packs de huit finitions sont préparés pour la Combat MG, le Combat Pistol, les fusils de précision Heavy Sniper et Marksman, le Micro SMG, les fusils à pompe Pump et Sawed-Off, le SMG et le Sniper Rifle. L’enregistrement et l’affichage de chaque finition restent à confirmer en jeu.",
-                "en": "New eight-finish packs have been prepared for the Combat MG, Combat Pistol, Heavy Sniper and Marksman rifles, Micro SMG, Pump and Sawed-Off shotguns, SMG, and Sniper Rifle. Each finish still needs in-game registration and rendering checks."
+                "fr": "Un nouveau tableau de partie réunit les informations essentielles de votre équipe. Ouvrez-le avec M pour faire le point, puis retrouvez la carte en quelques instants.",
+                "en": "A new match board puts the key squad information in one place. Press M to check on your team, then jump to the map in just a moment."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LE GPS DESCEND SUR LA ROUTE",
+                "en": "GPS GUIDANCE, RIGHT ON THE ROAD"
+              },
+              "body": {
+                "fr": "En véhicule, votre itinéraire peut désormais apparaître directement sur la chaussée. Une aide visuelle bienvenue pour garder le cap sans quitter la route des yeux.",
+                "en": "When driving, your route can now appear right on the road ahead. Follow the path without constantly taking your eyes off the action."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "RESSOURCES D’ARMES RÉORGANISÉES",
-                "en": "REORGANIZED WEAPON ASSETS"
+                "fr": "DES INFOS PLUS FACILES À LIRE",
+                "en": "CLEARER INFORMATION IN COMBAT"
               },
               "body": {
-                "fr": "Les packs de camouflages ont été regroupés dans une nouvelle arborescence dédiée. Les collections de fusils d’assaut et de carabines déjà présentes sont conservées et complétées par de nouvelles ressources.",
-                "en": "Camouflage packs have been consolidated under a dedicated resource structure. Existing assault rifle and carbine collections are retained alongside additional weapon resources."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CAMOUFLAGES ANIMÉS — DÉVELOPPEMENT",
-                "en": "ANIMATED CAMOS — IN DEVELOPMENT"
-              },
-              "body": {
-                "fr": "Plusieurs ressources d’essai de finitions animées ont été ajoutées ou déplacées pour différents modèles d’armes. Les tests de chargement, de rendu et d’animation ne constituent pas une validation de leur fonctionnement en match.",
-                "en": "Several animated-finish test resources have been added or moved for different weapon models. Asset loading and animation tests do not confirm that they work reliably during matches."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "DÉPLACEMENTS TACTIQUES 3.0.1 — TEST",
-                "en": "TACTICAL MOVEMENT 3.0.1 — TESTING"
-              },
-              "body": {
-                "fr": "Le nouveau module rassemble glissade avant, plongeons directionnels, position allongée persistante et visée/tir au sol avec animations YCD personnalisées. Les transitions, orientations et interactions avec les armes nécessitent des essais en jeu.",
-                "en": "The new module combines forward slides, directional dives, persistent prone movement, and aiming/firing while prone using custom YCD animations. Transitions, orientation, and weapon interactions still need in-game validation."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "TIR EN VÉHICULE — PROTOTYPE",
-                "en": "VEHICLE SHOOTING — PROTOTYPE"
-              },
-              "body": {
-                "fr": "WARBREACH Drive-by introduit des postures de tir adaptées aux sièges et aux familles de véhicules, déclenchées en visant. Les modèles animés sont générés et contrôlés hors jeu ; leur rendu et leurs collisions doivent encore être vérifiés dans FiveM.",
-                "en": "WARBREACH Drive-by introduces shooting poses tailored to vehicle seats and body styles, triggered while aiming. The animation assets have been generated and checked outside the game; rendering and collisions still need FiveM testing."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "IMMERSION ET ÉCOSYSTÈME",
-            "en": "IMMERSION & ECOSYSTEM"
-          },
-          "tone": "cyan",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "ÉCRAN DE CHARGEMENT WARBREACH",
-                "en": "WARBREACH LOADING SCREEN"
-              },
-              "body": {
-                "fr": "Un nouvel écran de chargement animé associe ambiance militaire, effets atmosphériques, barre de progression réelle, astuces et textes français/anglais. Les événements peuvent être affichés via le flux de patchnotes.",
-                "en": "A new animated loading screen combines a military atmosphere, weather-like effects, real loading progress, rotating tips, and French/English text. Events can be surfaced through the patchnotes feed."
+                "fr": "Les illustrations des armes, la minicarte et plusieurs éléments de l’interface ont été rafraîchis. L’essentiel doit rester visible, même quand les échanges de tirs s’intensifient.",
+                "en": "Weapon icons, the minimap, and several interface elements have been refreshed, making the important details easier to spot when the fighting gets intense."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "SITE VITRINE ET IDENTITÉ",
-                "en": "WEBSITE & BRAND IDENTITY"
+                "fr": "RÉSURGENCE, SOIGNÉE DANS LES DÉTAILS",
+                "en": "RESURGENCE, DOWN TO THE DETAILS"
               },
               "body": {
-                "fr": "Le site vitrine a été retravaillé autour de l’identité WARBREACH, notamment sa présentation principale et son podium. Il reste distinct du déploiement effectif sur un hébergement public.",
-                "en": "The website has been refined around the WARBREACH identity, including its main presentation and podium. This code update does not itself confirm public deployment."
+                "fr": "Les réanimations, les retours au combat et les interactions avec le ravitaillement gagnent en fluidité. Moins d'interruptions, plus de temps pour l'action.",
+                "en": "Revives, redeployments, and supply interactions feel smoother. Less friction, more time in the fight."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "BOT DISCORD",
-                "en": "DISCORD BOT"
+                "fr": "UNE FIN DE PARTIE PLUS MARQUANTE",
+                "en": "A MORE MEMORABLE MATCH FINALE"
               },
               "body": {
-                "fr": "Le bot communautaire reçoit des ajustements de présentation, de textes bilingues, de compteurs et de salons vocaux. Les publications déjà présentes sur Discord ne sont pas modifiées automatiquement par ce commit.",
-                "en": "The community bot receives presentation, bilingual text, counter, and voice-channel adjustments. This commit does not automatically update previously published Discord posts."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LABORATOIRE ET FIABILITÉ",
-            "en": "DEVELOPMENT LAB & RELIABILITY"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "KILLCAM MULTI-ACTEURS — VERSION DEV",
-                "en": "MULTI-ACTOR KILLCAM — DEV BUILD"
-              },
-              "body": {
-                "fr": "Un prototype de killcam peut reconstruire une élimination avec le tireur, la victime et jusqu’à quatre joueurs proches. Il exploite des historiques locaux, des animations et un catalogue YCD généré automatiquement. Version développeur non sécurisée pour un serveur public et non équivalente à un replay vidéo.",
-                "en": "A killcam prototype can reconstruct an elimination with the shooter, victim, and up to four nearby players. It uses local history, animations, and an automatically generated YCD catalog. This developer build is not secured for a public server and is not a video replay."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "QUATRE ARÈNES PvP EN PRÉPARATION",
-                "en": "FOUR PvP ARENAS IN PREPARATION"
-              },
-              "body": {
-                "fr": "Les ressources de carte Atoll, Bazaar, Cloister et Topside ont été ajoutées pour des essais d’arène. Leur présence dans le dépôt ne signifie pas qu’un mode PvP public est activé.",
-                "en": "Map resources for Atoll, Bazaar, Cloister, and Topside have been added for arena testing. Their presence in the repository does not mean a public PvP mode is enabled."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "NETTOYAGE DES RESSOURCES",
-                "en": "RESOURCE CLEANUP"
-              },
-              "body": {
-                "fr": "Des ressources obsolètes et plusieurs utilitaires externes ont été retirés ou déplacés. Les prototypes d’animation et de camouflage disposent maintenant d’espaces de test distincts des packs principaux.",
-                "en": "Obsolete resources and several third-party utilities have been removed or relocated. Animation and camouflage prototypes now have separate test areas from the main resource packs."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "COUVERTURE DE TESTS",
-                "en": "TEST COVERAGE"
-              },
-              "body": {
-                "fr": "De nouveaux tests automatisés et plans de vérification couvrent notamment les récompenses, la galerie, le podium, le tableau de partie et la killcam. Les tests simulés ne remplacent pas les essais multijoueurs dans FiveM.",
-                "en": "New automated checks and test plans cover daily rewards, the gallery, podium, match scoreboard, and killcam. Simulated tests do not replace multiplayer validation inside FiveM."
-              }
-            }
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "label": {
-            "fr": "NOUVEAU",
-            "en": "NEW"
-          },
-          "title": {
-            "fr": "RÉCOMPENSES QUOTIDIENNES",
-            "en": "DAILY REWARDS"
-          },
-          "body": {
-            "fr": "Un calendrier personnel de 90 récompenses avec XP, coins et bonus de série.",
-            "en": "A personal 90-reward calendar with XP, coins, and streak bonuses."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "QUARTIER GÉNÉRAL",
-            "en": "HEADQUARTERS"
-          },
-          "title": {
-            "fr": "GALERIE ET PODIUM",
-            "en": "GALLERY & PODIUM"
-          },
-          "body": {
-            "fr": "Cinq présentoirs d’armes, trois podiums et un nouvel écran de classement.",
-            "en": "Five weapon displays, three podiums, and a new leaderboard screen."
-          },
-          "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "GAMEPLAY",
-            "en": "GAMEPLAY"
-          },
-          "title": {
-            "fr": "TABLEAU DE PARTIE",
-            "en": "MATCH SCOREBOARD"
-          },
-          "body": {
-            "fr": "Consultation des informations de l’escouade et accès à la carte pendant le match.",
-            "en": "Squad information and quick map access during a match."
-          },
-          "tone": "accent"
-        },
-        {
-          "label": {
-            "fr": "EN DÉVELOPPEMENT",
-            "en": "IN DEVELOPMENT"
-          },
-          "title": {
-            "fr": "KILLCAM MULTI-ACTEURS",
-            "en": "MULTI-ACTOR KILLCAM"
-          },
-          "body": {
-            "fr": "Reconstitution expérimentale des éliminations avec les joueurs proches ; non prête pour la production.",
-            "en": "Experimental elimination reconstruction with nearby players; not production-ready."
-          },
-          "tone": "muted"
-        }
-      ]
-    },
-    {
-      "num": "1.2.0",
-      "tag": {
-        "fr": "DÉVELOPPEMENT",
-        "en": "IN DEVELOPMENT"
-      },
-      "title": {
-        "fr": "EXTRACTION, ARMURERIE ET IMMERSION",
-        "en": "EXTRACTION, ARMORY & IMMERSION"
-      },
-      "date": "2026-10-14",
-      "sections": [
-        {
-          "title": {
-            "fr": "FIN DE PARTIE",
-            "en": "END OF MATCH"
-          },
-          "tone": "accent",
-          "items": [
-            {
-              "kind": "new",
-              "title": {
-                "fr": "EXTRACTION DES VAINQUEURS",
-                "en": "WINNER EXTRACTION"
-              },
-              "body": {
-                "fr": "Développement d’une séquence de victoire avec arrivée d’un hélicoptère, montée de l’escouade et départ cinématique. Les trajectoires et caméras restent à valider en jeu.",
-                "en": "A new victory sequence is in development, featuring helicopter arrival, squad extraction and a cinematic departure. Flight paths and cameras still require in-game testing."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "BILAN D’ESCOUADE",
-                "en": "SQUAD MATCH SUMMARY"
-              },
-              "body": {
-                "fr": "Création d’une scène de résultats au QG : opérateurs alignés dans le hangar, statistiques de partie et présentation de l’escouade. Les placements doivent encore être testés.",
-                "en": "A new HQ results scene is being built with operators lined up in the hangar, match statistics and squad presentation. In-game placement still needs testing."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "RETOUR AU QG",
-                "en": "RETURN TO HQ"
-              },
-              "body": {
-                "fr": "La fin de partie et le retour au QG ont été réorganisés autour du résultat définitif de chaque escouade.",
-                "en": "End-of-match and HQ return flows have been reorganized around each squad’s final result."
+                "fr": "Une victoire mérite une conclusion mémorable. Les séquences d’extraction et la présentation de l’escouade gagnent encore en intensité.",
+                "en": "Every victory deserves a memorable ending. Extraction sequences and squad presentations bring even more excitement to those final moments."
               }
             }
           ]
@@ -454,154 +177,145 @@
             "fr": "ARMES ET PERSONNALISATION",
             "en": "WEAPONS & CUSTOMIZATION"
           },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "ENCORE PLUS DE CAMOUFLAGES",
+                "en": "MORE CAMOUFLAGES TO MAKE YOUR OWN"
+              },
+              "body": {
+                "fr": "De nouvelles collections de camouflages prennent forme pour les mitrailleuses, pistolets, pistolets-mitrailleurs, fusils à pompe et fusils de précision. De quoi donner une vraie personnalité à chaque arme.",
+                "en": "New camouflage collections are taking shape for machine guns, pistols, SMGs, shotguns, and sniper rifles. More ways to give every weapon a look of its own."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "VOTRE ARSENAL, VOTRE STYLE",
+                "en": "YOUR ARSENAL, YOUR STYLE"
+              },
+              "body": {
+                "fr": "Les finitions s'étendent progressivement au-delà des fusils d'assaut et des carabines. Chaque catégorie d'armes aura de quoi afficher son propre style.",
+                "en": "Weapon finishes are gradually expanding beyond assault rifles and carbines. Every weapon category is getting more ways to stand out."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA PERSONNALISATION SE PRÉCISE",
+                "en": "CUSTOMIZATION, REFINED"
+              },
+              "body": {
+                "fr": "Les présentations des armes et de leurs équipements ont été revues pour mieux mettre en valeur vos choix de finition, sans perdre de vue les accessoires que vous préférez.",
+                "en": "Weapon previews and attachments have been revisited to give your favorite finishes room to shine without overlooking your preferred gear."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "L’UNIVERS WARBREACH",
+            "en": "THE WORLD OF WARBREACH"
+          },
           "tone": "cyan",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "HUIT FINITIONS POUR LE FUSIL D’ASSAUT",
-                "en": "EIGHT ASSAULT RIFLE FINISHES"
+                "fr": "UNE ARRIVÉE QUI DONNE LE TON",
+                "en": "A WELCOME THAT SETS THE MOOD"
               },
               "body": {
-                "fr": "Ajout de huit camouflages spécifiques et de leurs ressources de streaming. Le menu d’armes et l’affichage du modèle personnalisé ont été adaptés ; vérification visuelle multijoueur en attente.",
-                "en": "Eight custom finishes and their streamed assets have been added. The weapon menu and custom-model display were updated; multiplayer visual verification is still pending."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "CAMOUFLAGES DE CARABINE",
-                "en": "CARBINE CAMOUFLAGES"
-              },
-              "body": {
-                "fr": "Intégration de ressources supplémentaires pour huit finitions de carabine, avec modèles, textures et métadonnées. Disponibilité finale à confirmer en jeu.",
-                "en": "Additional resources for eight carbine finishes have been added, including models, textures and metadata. Final in-game availability is not yet confirmed."
+                "fr": "Un nouvel écran de chargement vous plonge dans l’ambiance de WARBREACH, entre projecteurs, météo changeante et conseils utiles. Même les premières secondes font désormais partie de l’expérience.",
+                "en": "A new loading screen draws you into WARBREACH with searchlights, shifting weather, and useful tips. Even the first few seconds are part of the experience."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "APERÇU DES FINITIONS",
-                "en": "WEAPON FINISH PREVIEW"
+                "fr": "WARBREACH PREND VIE SUR LE WEB",
+                "en": "WARBREACH COMES TO LIFE ONLINE"
               },
               "body": {
-                "fr": "Adaptation de la présentation des variantes de fusil d’assaut dans le menu 3D et sur les armes affichées dans le dos. Les accessoires ordinaires restent pris en compte.",
-                "en": "Assault rifle variant previews were updated for the 3D menu and weapons displayed on the player’s back. Standard attachments remain supported."
+                "fr": "Le site officiel de WARBREACH continue d’évoluer : une présentation plus immersive, une ambiance plus affirmée et davantage de place pour mettre les meilleurs joueurs à l’honneur.",
+                "en": "The official WARBREACH website keeps evolving, with a more immersive presentation, a stronger atmosphere, and more room to celebrate top players."
               }
             },
             {
-              "kind": "new",
+              "kind": "mod",
               "title": {
-                "fr": "CAMOUFLAGE ANIMÉ — PROTOTYPE",
-                "en": "ANIMATED CAMO — PROTOTYPE"
+                "fr": "UN DISCORD AUX COULEURS DE WARBREACH",
+                "en": "A DISCORD THAT FEELS LIKE WARBREACH"
               },
               "body": {
-                "fr": "Création d’un prototype expérimental pour la Carabine Mk II et d’outils de fabrication des assets. L’animation sur une arme équipée n’est pas encore validée en jeu.",
-                "en": "An experimental Carbine Mk II prototype and asset-building pipeline have been created. Animation on an equipped weapon has not yet been verified in-game."
+                "fr": "La présentation du bot et plusieurs espaces communautaires ont été peaufinés. Le Discord prend peu à peu les couleurs et l’ambiance de WARBREACH.",
+                "en": "The bot's presentation and several community spaces have received a fresh coat of polish. Discord is starting to feel more like WARBREACH."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "GAMEPLAY ET MONDE",
-            "en": "GAMEPLAY & WORLD"
-          },
-          "tone": "hot",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "EFFETS DU GAZ",
-                "en": "GAS VISUAL EFFECTS"
-              },
-              "body": {
-                "fr": "Travail sur le rendu visuel du mur de gaz et les informations de zone affichées aux joueurs. Les réglages de position et de comportement nécessitent des tests en jeu.",
-                "en": "Gas-wall visuals and zone feedback have been updated. Placement and behavior still require in-game tuning."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "APPARITION ET VISIBILITÉ DU BUTIN",
-                "en": "LOOT SPAWNING & VISIBILITY"
-              },
-              "body": {
-                "fr": "Améliorations du placement des objets, de la récupération des éléments réseau et de la synchronisation des caisses pour réduire les objets manquants ou mal positionnés.",
-                "en": "Object placement, network recovery and crate synchronization were refined to reduce missing or misplaced loot."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "INTERACTIONS ET BRUITAGES",
-                "en": "INTERACTIONS & AUDIO"
-              },
-              "body": {
-                "fr": "Ajustements de la détection du butin ciblé, des sons de ramassage et des effets sonores de proximité des caisses.",
-                "en": "Targeted loot detection, pickup sounds and crate proximity audio received adjustments."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "SUIVI DES VÉHICULES",
-                "en": "VEHICLE LOCATION TOOLS"
-              },
-              "body": {
-                "fr": "Ajout d’outils de repérage pour vérifier les emplacements de véhicules terrestres, bateaux et hélicoptères sur Cayo Perico.",
-                "en": "Location tools were added to review ground vehicle, boat and helicopter spawn points across Cayo Perico."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "INTERFACE ET INFRASTRUCTURE",
-            "en": "INTERFACE & INFRASTRUCTURE"
+            "fr": "CE QUI SE PRÉPARE",
+            "en": "ON THE HORIZON"
           },
           "tone": "muted",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "NOTES DE MISE À JOUR BILINGUES",
-                "en": "BILINGUAL PATCH NOTES"
+                "fr": "REVIVEZ VOTRE DERNIER AFFRONTEMENT",
+                "en": "RELIVE YOUR FINAL FIGHT"
               },
               "body": {
-                "fr": "Évolution du format des patchnotes en français et en anglais, avec contrôles de cohérence et préparation de la synchronisation GitHub et Discord.",
-                "en": "The patch notes format now supports French and English with consistency checks and preparation for GitHub and Discord synchronization."
+                "fr": "Une killcam est en préparation pour revivre les dernières secondes d’un affrontement, avec les combattants présents à proximité. Une nouvelle manière de revoir les actions décisives.",
+                "en": "A killcam is taking shape to replay the final seconds of a fight, including nearby players caught in the action. Another way to relive the moments that decide a battle."
               }
             },
             {
-              "kind": "mod",
+              "kind": "new",
               "title": {
-                "fr": "HUD DE RÉSURGENCE",
-                "en": "RESURGENCE HUD"
+                "fr": "DES DÉPLACEMENTS PLUS AUDACIEUX",
+                "en": "MORE WAYS TO MOVE"
               },
               "body": {
-                "fr": "Ajustements de l’affichage des informations d’escouade, des retours en jeu et du bilan de partie.",
-                "en": "Squad information, redeployment feedback and post-match summary displays were refined."
+                "fr": "Glissades rapides, plongeons dans plusieurs directions et combat au sol : de nouveaux mouvements sont à l’étude pour offrir davantage de liberté sans sacrifier la précision des affrontements.",
+                "en": "Fast slides, directional dives, and fighting from the ground are being explored to bring more freedom of movement without sacrificing control in a gunfight."
               }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "LABORATOIRE DE DÉVELOPPEMENT",
-            "en": "DEVELOPMENT LAB"
-          },
-          "tone": "muted",
-          "items": [
+            },
             {
               "kind": "new",
               "title": {
-                "fr": "DÉPLACEMENTS TACTIQUES — PROTOTYPE",
-                "en": "TACTICAL MOVEMENT — PROTOTYPE"
+                "fr": "LE COMBAT SORT DES VITRES",
+                "en": "TAKING VEHICLE COMBAT FURTHER"
               },
               "body": {
-                "fr": "Création d’un moteur expérimental de glissade, de plongeon et de déplacement au sol. La fluidité, les animations et le combat en position allongée nécessitent encore une validation en jeu.",
-                "en": "An experimental engine for sliding, diving and prone movement has been created. Animation quality, fluidity and prone combat still need in-game validation."
+                "fr": "De nouvelles postures de tir en véhicule sont en préparation. L’objectif : des échanges plus naturels et plus impressionnants, au volant comme sur la banquette arrière.",
+                "en": "New shooting positions inside vehicles are in the works, aiming for more natural and exciting firefights from the driver's seat to the back row."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "QUATRE ARÈNES À DÉCOUVRIR",
+                "en": "FOUR ARENAS ON THE HORIZON"
+              },
+              "body": {
+                "fr": "Atoll, Bazaar, Cloister et Topside : quatre nouveaux terrains prennent forme pour de futurs affrontements. Chacun promet une ambiance et des situations de combat bien à lui.",
+                "en": "Atoll, Bazaar, Cloister, and Topside: four new arenas are taking shape for future battles, each with its own atmosphere and combat opportunities."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DES FINITIONS QUI PRENNENT VIE",
+                "en": "FINISHES WITH A LIFE OF THEIR OWN"
+              },
+              "body": {
+                "fr": "Des camouflages animés sont à l’étude pour certaines armes. Des effets visuels plus vivants, pensés pour mettre les finitions en valeur sans détourner l’attention du combat.",
+                "en": "Animated finishes are being explored for selected weapons, with lively visual effects designed to make each finish stand out without distracting from the fight."
               }
             }
           ]
@@ -610,16 +324,260 @@
       "highlights": [
         {
           "label": {
-            "fr": "CINÉMATIQUE",
-            "en": "CINEMATIC"
+            "fr": "À LA UNE",
+            "en": "IN THE SPOTLIGHT"
           },
           "title": {
-            "fr": "EXTRACTION FINALE",
-            "en": "FINAL EXTRACTION"
+            "fr": "LE QG CHANGE DE VISAGE",
+            "en": "HQ GETS A MAKEOVER"
           },
           "body": {
-            "fr": "Nouvelle séquence de victoire en hélicoptère, en phase de test.",
-            "en": "New helicopter victory sequence, currently in testing."
+            "fr": "Une galerie d’armes, de nouveaux podiums et un espace de classement plus spectaculaire.",
+            "en": "A weapon gallery, brand-new podiums, and a bolder leaderboard area."
+          },
+          "tone": "accent"
+        },
+        {
+          "label": {
+            "fr": "PROGRESSION",
+            "en": "PROGRESSION"
+          },
+          "title": {
+            "fr": "VOTRE RENDEZ-VOUS QUOTIDIEN",
+            "en": "YOUR DAILY REWARD"
+          },
+          "body": {
+            "fr": "Des récompenses à retrouver jour après jour, avec un bonus pour les plus réguliers.",
+            "en": "Daily rewards to work toward, with a little extra for those who keep coming back."
+          },
+          "tone": "success"
+        },
+        {
+          "label": {
+            "fr": "EN PARTIE",
+            "en": "IN MATCH"
+          },
+          "title": {
+            "fr": "TOUJOURS DANS LE COUP",
+            "en": "STAY IN THE FIGHT"
+          },
+          "body": {
+            "fr": "Tableau d’escouade, repères améliorés et trajet GPS directement sur la route.",
+            "en": "A squad board, clearer information, and GPS guidance right on the road."
+          },
+          "tone": "cyan"
+        },
+        {
+          "label": {
+            "fr": "À VENIR",
+            "en": "COMING UP"
+          },
+          "title": {
+            "fr": "LA KILLCAM PREND FORME",
+            "en": "KILLCAM TAKES SHAPE"
+          },
+          "body": {
+            "fr": "Une killcam est en préparation pour revivre les dernières secondes d’un affrontement.",
+            "en": "A killcam is taking shape to replay the final seconds of a fight."
+          },
+          "tone": "muted"
+        }
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
+    },
+    {
+      "num": "1.2.0",
+      "title": {
+        "fr": "UNE VICTOIRE QUI SE RACONTE",
+        "en": "A VICTORY WORTH REMEMBERING"
+      },
+      "date": "2026-10-14",
+      "sections": [
+        {
+          "title": {
+            "fr": "LE DERNIER MOT AUX VAINQUEURS",
+            "en": "THE WINNERS GET THE LAST WORD"
+          },
+          "tone": "accent",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PLACE À L’EXTRACTION",
+                "en": "HERE COMES THE EXTRACTION"
+              },
+              "body": {
+                "fr": "Après le dernier affrontement, l’escouade gagnante se prépare à quitter le terrain en hélicoptère. Une conclusion plus spectaculaire pour les parties que vous aurez remportées de haute lutte.",
+                "en": "After the final fight, the winning squad prepares to leave by helicopter. A bigger, more cinematic ending for every hard-fought victory."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "RETROUVEZ VOTRE ESCOUADE AU QG",
+                "en": "REUNITE WITH YOUR SQUAD AT HQ"
+              },
+              "body": {
+                "fr": "Une nouvelle présentation de fin de partie rassemble votre équipe dans le hangar, avec les chiffres qui racontent votre match. De quoi savourer la victoire... ou préparer la revanche.",
+                "en": "A new post-match presentation brings your squad together in the hangar, with the numbers that tell the story of your match. Celebrate the win—or start planning your comeback."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DU DERNIER CERCLE AU HANGAR",
+                "en": "FROM THE FINAL CIRCLE TO THE HANGAR"
+              },
+              "body": {
+                "fr": "L’enchaînement entre la fin du match, l’annonce du résultat et le retour au QG est plus naturel. La dernière séquence de chaque partie gagne en rythme.",
+                "en": "The transition from the final fight to the results screen and back to HQ feels more natural, giving every match a smoother finale."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "DE NOUVELLES FINITIONS",
+            "en": "FRESH NEW FINISHES"
+          },
+          "tone": "cyan",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "HUIT LOOKS POUR LE FUSIL D’ASSAUT",
+                "en": "EIGHT NEW ASSAULT RIFLE LOOKS"
+              },
+              "body": {
+                "fr": "Du plus discret au plus audacieux, huit nouvelles finitions ont été préparées pour le fusil d’assaut. Il ne vous reste qu’à choisir celle qui collera à votre style.",
+                "en": "From understated to bold, eight new assault rifle finishes are being prepared. The hardest part will be picking your favorite."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "LA CARABINE ENTRE DANS LA DANSE",
+                "en": "CARBINES GET THEIR TURN"
+              },
+              "body": {
+                "fr": "La carabine gagne elle aussi une collection de huit finitions. De nouvelles possibilités pour varier vos équipements avant de partir au combat.",
+                "en": "The carbine is getting a collection of eight finishes of its own, with more ways to switch up your look before a fight."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LES DÉTAILS FONT LA DIFFÉRENCE",
+                "en": "IT’S ALL IN THE DETAILS"
+              },
+              "body": {
+                "fr": "Les finitions sont mieux mises en valeur dans l’armurerie comme sur les armes portées dans le dos. Votre style reste visible, même entre deux affrontements.",
+                "en": "Weapon finishes stand out more clearly in the armory and on weapons carried on your back. Your style stays visible between fights."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "SUR LE TERRAIN",
+            "en": "OUT IN THE FIELD"
+          },
+          "tone": "hot",
+          "items": [
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LE GAZ SE FAIT PLUS MENAÇANT",
+                "en": "THE GAS FEELS CLOSER THAN EVER"
+              },
+              "body": {
+                "fr": "Le rideau de gaz gagne en présence à l’écran. Ses effets renforcent la tension à mesure que la zone de sécurité se referme.",
+                "en": "The gas wall has a stronger presence on screen, building tension as the safe zone closes in."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "RAMASSER, S’ÉQUIPER, REPARTIR",
+                "en": "LOOT UP AND MOVE OUT"
+              },
+              "body": {
+                "fr": "Les armes et les objets autour des caisses sont plus faciles à repérer. Moins de temps à chercher ce qui se trouve à vos pieds, plus de temps pour repartir au combat.",
+                "en": "Weapons and items around supply crates are easier to spot. Spend less time searching at your feet and more time getting back into the fight."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "DES INTERACTIONS PLUS AGRÉABLES",
+                "en": "SMOOTHER LOOTING"
+              },
+              "body": {
+                "fr": "La sélection du butin et plusieurs sons d’interaction ont été ajustés. Ouvrir une caisse et récupérer son contenu doit rester simple, même au milieu de l’action.",
+                "en": "Loot selection and interaction sounds have been refined. Opening a crate and grabbing what you need should stay simple, even when the action heats up."
+              }
+            },
+            {
+              "kind": "mod",
+              "title": {
+                "fr": "LA RÉSURGENCE PLUS LISIBLE",
+                "en": "CLEARER RESURGENCE MOMENTS"
+              },
+              "body": {
+                "fr": "Les informations liées à votre escouade et aux retours en jeu ont été revues pour mieux suivre la situation quand les choses tournent mal.",
+                "en": "Squad information and redeployment indicators have been revisited to help you keep track when things go sideways."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "À SUIVRE",
+            "en": "WHAT’S NEXT"
+          },
+          "tone": "muted",
+          "items": [
+            {
+              "kind": "new",
+              "title": {
+                "fr": "PLUS DE LIBERTÉ DANS VOS MOUVEMENTS",
+                "en": "A NEW FEEL FOR MOVEMENT"
+              },
+              "body": {
+                "fr": "Glissades, plongeons et déplacements au sol : plusieurs possibilités sont à l’étude pour rendre les combats plus nerveux, tout en gardant le contrôle du personnage.",
+                "en": "Slides, dives, and ground movement are being explored for faster, sharper fights without losing control of your character."
+              }
+            },
+            {
+              "kind": "new",
+              "title": {
+                "fr": "DES CAMOUFLAGES PLUS VIVANTS",
+                "en": "MORE THAN A STATIC CAMO"
+              },
+              "body": {
+                "fr": "Les premières finitions animées prennent forme. De nouveaux effets visuels pourraient bientôt donner à certaines armes un caractère bien à elles.",
+                "en": "The first animated finishes are taking shape. New visual effects could soon give selected weapons a personality of their own."
+              }
+            }
+          ]
+        }
+      ],
+      "highlights": [
+        {
+          "label": {
+            "fr": "VICTOIRE",
+            "en": "VICTORY"
+          },
+          "title": {
+            "fr": "UNE FIN À LA HAUTEUR",
+            "en": "AN ENDING WORTH THE WIN"
+          },
+          "body": {
+            "fr": "Une extraction en hélicoptère pour donner plus d’ampleur au dernier moment du match.",
+            "en": "A helicopter extraction designed to make the final moments of a match feel unforgettable."
           },
           "tone": "accent"
         },
@@ -629,230 +587,151 @@
             "en": "CUSTOMIZATION"
           },
           "title": {
-            "fr": "NOUVELLES FINITIONS",
-            "en": "NEW WEAPON FINISHES"
+            "fr": "L’ARSENAL S’AGRANDIT",
+            "en": "THE ARSENAL EXPANDS"
           },
           "body": {
-            "fr": "Huit camouflages de fusil d’assaut et de nouvelles variantes de carabine ajoutés au projet.",
-            "en": "Eight assault rifle finishes and new carbine variants added to the project."
+            "fr": "De nouvelles finitions pour les fusils d’assaut et les carabines.",
+            "en": "New finishes for assault rifles and carbines."
           },
           "tone": "cyan"
-        },
-        {
-          "label": {
-            "fr": "EN DÉVELOPPEMENT",
-            "en": "WORK IN PROGRESS"
-          },
-          "title": {
-            "fr": "MOUVEMENTS TACTIQUES",
-            "en": "TACTICAL MOVEMENT"
-          },
-          "body": {
-            "fr": "Glissade, plongeon et position allongée : prototype non validé en jeu.",
-            "en": "Sliding, diving and prone movement: prototype not yet validated in-game."
-          },
-          "tone": "muted"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "NOUVEAUTÉS",
+        "en": "NEW CONTENT"
+      }
     },
     {
       "num": "1.1.0",
-      "tag": {
-        "fr": "MISE À JOUR MAJEURE",
-        "en": "FEATURE UPDATE"
-      },
       "title": {
-        "fr": "RÉSURGENCE ET ÉCOSYSTÈME",
-        "en": "RESURGENCE & ECOSYSTEM"
+        "fr": "LA RÉSURGENCE PREND VIE",
+        "en": "RESURGENCE COMES TO LIFE"
       },
       "date": "2026-10-13",
       "sections": [
         {
           "title": {
-            "fr": "MODE RÉSURGENCE",
-            "en": "RESURGENCE MODE"
+            "fr": "RÉSURGENCE",
+            "en": "RESURGENCE"
           },
           "tone": "accent",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "BOUCLE DE JEU RÉSURGENCE",
-                "en": "RESURGENCE GAMEPLAY LOOP"
+                "fr": "TANT QU’IL RESTE UN ESPOIR",
+                "en": "AS LONG AS THERE’S HOPE"
               },
               "body": {
-                "fr": "Implémentation des états de mise à terre, élimination, réanimation et retour au combat. Le fonctionnement complet reste soumis aux tests multijoueurs.",
-                "en": "Downed, eliminated, revived and redeployed player states have been implemented. The complete flow still needs multiplayer testing."
+                "fr": "Être mis à terre ne signifie pas forcément la fin. La Résurgence prend forme autour d’une idée : rester soudés, relever ses alliés et se battre pour ramener son équipe dans la partie.",
+                "en": "Getting downed doesn't have to be the end. Resurgence is taking shape around one idea: stick together, revive your teammates, and fight to bring your squad back."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "ESCOUADES ET FORMATS DE PARTIE",
-                "en": "SQUADS & MATCH FORMATS"
+                "fr": "SEUL OU EN ESCOUADE",
+                "en": "GO SOLO OR SQUAD UP"
               },
               "body": {
-                "fr": "Structuration des parties en Solo, Duo, Trio et Quatuor, avec gestion des équipes adverses, du placement et de la victoire.",
-                "en": "Match structure now supports Solo, Duo, Trio and Quads, with rival squads, placements and victory handling."
+                "fr": "Les affrontements s’organisent en Solo, Duo, Trio et Quatuor. À vous de décider si vous préférez compter sur votre instinct ou avancer avec vos coéquipiers.",
+                "en": "Matches are taking shape in Solo, Duo, Trio, and Quads. Trust your own instincts or bring the squad—your call."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "SPECTATEUR ET RETOUR EN JEU",
-                "en": "SPECTATING & REDEPLOYMENT"
+                "fr": "UNE DEUXIÈME CHANCE",
+                "en": "A SECOND CHANCE"
               },
               "body": {
-                "fr": "Développement du suivi des coéquipiers après élimination, du compte à rebours de retour et de la réapparition en chute libre.",
-                "en": "Teammate spectating, redeployment countdowns and freefall returns have been developed."
+                "fr": "Après une élimination, gardez un œil sur vos alliés en attendant de pouvoir reprendre le combat. Le retour sur le terrain se fait depuis les airs : à vous de choisir où replonger.",
+                "en": "After an elimination, keep an eye on your teammates while you wait for your chance to return. Redeployment brings you back from the sky—where you land is up to you."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "ATTRIBUTION DES ÉLIMINATIONS",
-                "en": "ELIMINATION CREDIT"
+                "fr": "CHAQUE ÉLIMINATION A SON HISTOIRE",
+                "en": "EVERY ELIMINATION TELLS A STORY"
               },
               "body": {
-                "fr": "Clarification du suivi des mises à terre, des éliminations et des événements associés au kill feed.",
-                "en": "Downs, eliminations and related kill-feed events are now tracked more consistently."
+                "fr": "Les mises à terre et les éliminations sont mieux suivies afin que les actions de chacun soient reconnues au bon moment.",
+                "en": "Downs and eliminations are tracked more consistently, so each player's contribution gets recognized at the right moment."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "INTERFACE ET CONFORT",
-            "en": "INTERFACE & QUALITY OF LIFE"
+            "fr": "AU CŒUR DE L’ACTION",
+            "en": "IN THE THICK OF IT"
           },
           "tone": "cyan",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "HUD DE RÉSURGENCE",
-                "en": "RESURGENCE HUD"
+                "fr": "UNE ESCOUADE, EN UN REGARD",
+                "en": "YOUR SQUAD AT A GLANCE"
               },
               "body": {
-                "fr": "Ajout d’affichages pour les états des joueurs, les informations d’escouade et les retours prévus en partie.",
-                "en": "New displays show player states, squad information and upcoming redeployments."
+                "fr": "De nouveaux indicateurs vous aident à suivre l’état de vos équipiers et les possibilités de retour en jeu. Gardez les yeux sur l’essentiel quand tout s’accélère.",
+                "en": "New indicators help you follow your teammates' status and possible redeployments. Stay focused on what matters when things get hectic."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "LISIBILITÉ EN COMBAT",
-                "en": "COMBAT READABILITY"
+                "fr": "UNE INTERFACE PLUS CLAIRE",
+                "en": "A CLEANER COMBAT INTERFACE"
               },
               "body": {
-                "fr": "Révision de plusieurs éléments du HUD : kill feed, boussole, minimap, armes, vitalité et marqueurs du monde.",
-                "en": "Several HUD elements were revised: kill feed, compass, minimap, weapons, vitals and world markers."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "AFFICHAGE DES DONNÉES",
-                "en": "DATA DISPLAY RELIABILITY"
-              },
-              "body": {
-                "fr": "Réorganisation de la synchronisation et de la validation des données envoyées à l’interface pour faciliter leur maintenance.",
-                "en": "UI data synchronization and validation were reorganized to improve maintainability."
+                "fr": "Boussole, minicarte, informations d’armes et fil des éliminations : plusieurs éléments ont été repris pour rendre les combats plus faciles à suivre.",
+                "en": "The compass, minimap, weapon information, and kill feed have all received attention to make the action easier to follow."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "ADMINISTRATION ET FIABILITÉ",
-            "en": "ADMINISTRATION & RELIABILITY"
-          },
-          "tone": "muted",
-          "items": [
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "MENU D’ADMINISTRATION",
-                "en": "ADMINISTRATION MENU"
-              },
-              "body": {
-                "fr": "Réorganisation des actions de gestion des joueurs et du serveur, avec des permissions par rôle et une recherche d’actions.",
-                "en": "Player and server management actions were reorganized with role-based permissions and action search."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "OUTILS D’ADMINISTRATION SANS DOUBLONS",
-                "en": "STREAMLINED ADMIN TOOLS"
-              },
-              "body": {
-                "fr": "Retrait de plusieurs outils déjà couverts par txAdmin afin d’éviter les commandes en double. Les changements restent à valider sur le serveur.",
-                "en": "Several tools already provided by txAdmin were removed to avoid duplication. These changes still require server-side validation."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "INTERFACE FRANÇAIS / ANGLAIS",
-                "en": "FRENCH / ENGLISH INTERFACE"
-              },
-              "body": {
-                "fr": "Harmonisation des textes et des messages d’administration via les fichiers de traduction des ressources.",
-                "en": "Administration labels and messages were standardized through resource translation files."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "MISE À JOUR DES DÉPENDANCES",
-                "en": "DEPENDENCY UPDATE"
-              },
-              "body": {
-                "fr": "Mise à jour de la bibliothèque ox_lib utilisée par les ressources du serveur.",
-                "en": "The ox_lib library used by server resources has been updated."
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "fr": "COMMUNAUTÉ ET SITE WEB",
-            "en": "COMMUNITY & WEBSITE"
+            "fr": "L’UNIVERS WARBREACH S’ÉTEND",
+            "en": "THE WARBREACH UNIVERSE EXPANDS"
           },
           "tone": "hot",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "SITE VITRINE",
-                "en": "SHOWCASE WEBSITE"
+                "fr": "UNE PREMIÈRE VITRINE POUR WARBREACH",
+                "en": "A FIRST LOOK AT WARBREACH ONLINE"
               },
               "body": {
-                "fr": "Ajout des premières ressources du site présentant le projet, son gameplay et ses éléments visuels ; amélioration du rendu et des animations.",
-                "en": "The project showcase website has been added with gameplay and visual content, followed by presentation and animation refinements."
+                "fr": "L’univers de WARBREACH se dévoile à travers un nouveau site en préparation. Une façon de découvrir l’ambiance du projet et de suivre ce qui arrive.",
+                "en": "WARBREACH is getting a home on the web. It's a new way to discover the game's atmosphere and see what's coming next."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "BOT DISCORD COMMUNAUTAIRE",
-                "en": "COMMUNITY DISCORD BOT"
+                "fr": "UN DISCORD MIEUX ORGANISÉ",
+                "en": "A BETTER PLACE TO MEET"
               },
               "body": {
-                "fr": "Création de la base du bot avec modules de tickets, salons vocaux temporaires, suggestions, signalements et gestion des interactions.",
-                "en": "The Discord bot foundation now includes ticketing, temporary voice channels, suggestions, bug reports and interaction management."
+                "fr": "Tickets d’aide, salons vocaux temporaires et espaces pour partager vos idées : de nouveaux services prennent forme sur Discord pour faciliter les échanges et les rencontres entre joueurs.",
+                "en": "Support tickets, temporary voice channels, and spaces for your ideas are taking shape on Discord, making it easier to find teammates and connect with the community."
               }
             },
             {
-              "kind": "new",
+              "kind": "mod",
               "title": {
-                "fr": "OUTILS COMMUNAUTAIRES EN PRÉPARATION",
-                "en": "COMMUNITY FEATURES IN PREPARATION"
+                "fr": "UNE PLACE POUR VOS RETOURS",
+                "en": "A PLACE FOR YOUR FEEDBACK"
               },
               "body": {
-                "fr": "Préparation de fonctionnalités bilingues pour le suivi des retours, les statistiques et la communication avec les joueurs. La mise en service dépend de la configuration du bot.",
-                "en": "Bilingual feedback tracking, statistics and player communication features are in preparation. Availability depends on bot configuration."
+                "fr": "Un espace dédié aux suggestions et aux signalements se prépare. Chaque retour pourra être retrouvé et suivi plus facilement, pour garder le dialogue ouvert autour du jeu.",
+                "en": "Dedicated spaces for suggestions and bug reports are on the way. Feedback will be easier to find and follow, keeping community discussions moving forward."
               }
             }
           ]
@@ -861,31 +740,31 @@
       "highlights": [
         {
           "label": {
-            "fr": "GAMEPLAY",
-            "en": "GAMEPLAY"
+            "fr": "NOUVEAU MODE",
+            "en": "NEW MODE"
           },
           "title": {
             "fr": "RÉSURGENCE",
             "en": "RESURGENCE"
           },
           "body": {
-            "fr": "Mises à terre, réanimations, spectateur et retour au combat réunis dans une nouvelle boucle de jeu.",
-            "en": "Downs, revives, spectating and redeployment form a new gameplay loop."
+            "fr": "Rester en vie, relever les siens et revenir dans la bataille : tout se joue en équipe.",
+            "en": "Stay alive, pick each other up, and fight your way back. Teamwork changes everything."
           },
           "tone": "accent"
         },
         {
           "label": {
-            "fr": "INTERFACE",
-            "en": "INTERFACE"
+            "fr": "EN PARTIE",
+            "en": "IN MATCH"
           },
           "title": {
-            "fr": "HUD RESTRUCTURÉ",
-            "en": "REWORKED HUD"
+            "fr": "PLUS DE CLARTÉ",
+            "en": "A CLEARER PICTURE"
           },
           "body": {
-            "fr": "Nouveaux indicateurs de combat et de suivi des escouades.",
-            "en": "New combat and squad-tracking indicators."
+            "fr": "Des informations d’escouade plus présentes au cœur de l’action.",
+            "en": "More useful squad information right where you need it."
           },
           "tone": "cyan"
         },
@@ -895,67 +774,56 @@
             "en": "COMMUNITY"
           },
           "title": {
-            "fr": "ÉCOSYSTÈME DISCORD",
-            "en": "DISCORD ECOSYSTEM"
+            "fr": "LA SUITE PREND FORME",
+            "en": "MORE ON THE HORIZON"
           },
           "body": {
-            "fr": "Première intégration du bot communautaire et du site de présentation.",
-            "en": "Initial integration of the community bot and showcase website."
+            "fr": "Un site et de nouveaux espaces Discord pour accompagner WARBREACH.",
+            "en": "A website and new Discord spaces to grow alongside WARBREACH."
           },
           "tone": "hot"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "MISE À JOUR MAJEURE",
+        "en": "MAJOR UPDATE"
+      }
     },
     {
       "num": "1.0.1",
-      "tag": {
-        "fr": "RESTRUCTURATION",
-        "en": "RESTRUCTURING"
-      },
       "title": {
-        "fr": "CONSOLIDATION DU PROJET",
-        "en": "PROJECT CONSOLIDATION"
+        "fr": "UNE ÉTAPE AVANT LA SUITE",
+        "en": "SETTING UP WHAT’S NEXT"
       },
       "date": "2026-10-12",
       "sections": [
         {
           "title": {
-            "fr": "INFRASTRUCTURE",
-            "en": "INFRASTRUCTURE"
+            "fr": "AJUSTEMENTS",
+            "en": "IMPROVEMENTS"
           },
           "tone": "muted",
           "items": [
             {
               "kind": "mod",
               "title": {
-                "fr": "ÉVOLUTION DE L’IDENTITÉ",
-                "en": "PROJECT IDENTITY TRANSITION"
+                "fr": "DES BASES PLUS SOLIDES",
+                "en": "GETTING READY FOR MORE"
               },
               "body": {
-                "fr": "Transition du projet KOTG vers une nouvelle organisation et une identité intermédiaire STORMFALL, étape de la construction de WARBREACH.",
-                "en": "The KOTG project transitioned to a new structure and an interim STORMFALL identity as part of WARBREACH’s development."
+                "fr": "Cette étape est consacrée aux fondations de WARBREACH et à l’organisation des différents systèmes du jeu. Un travail discret, mais essentiel pour accueillir les prochaines nouveautés.",
+                "en": "This update focuses on strengthening WARBREACH's foundations and bringing its systems together. A quieter step that clears the way for the next wave of features."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "RÉORGANISATION DES RESSOURCES",
-                "en": "RESOURCE REORGANIZATION"
+                "fr": "UN UNIVERS QUI S’AFFIRME",
+                "en": "A STRONGER IDENTITY"
               },
               "body": {
-                "fr": "Restructuration de l’arborescence des ressources principales pour distinguer les composants actifs, les anciennes versions et les outils de développement.",
-                "en": "The main resource structure was reorganized to separate active components, older implementations and development tools."
-              }
-            },
-            {
-              "kind": "mod",
-              "title": {
-                "fr": "ARCHIVAGE DES ANCIENS MODULES",
-                "en": "LEGACY MODULE ARCHIVING"
-              },
-              "body": {
-                "fr": "Classement d’anciens scripts et prototypes dans une zone d’archive pour préparer les futures évolutions sans les présenter comme de nouvelles fonctionnalités.",
-                "en": "Older scripts and prototypes were moved into an archive area to prepare for future development without treating them as new player-facing features."
+                "fr": "L’univers de WARBREACH se précise, avec une identité plus affirmée et une direction plus cohérente pour les prochaines évolutions du jeu.",
+                "en": "WARBREACH's identity is growing stronger, with a clearer direction for its world and upcoming updates."
               }
             }
           ]
@@ -964,166 +832,155 @@
       "highlights": [
         {
           "label": {
-            "fr": "MAINTENANCE",
-            "en": "MAINTENANCE"
+            "fr": "EN COULISSES",
+            "en": "BEHIND THE SCENES"
           },
           "title": {
-            "fr": "NOUVELLE STRUCTURE",
-            "en": "NEW STRUCTURE"
+            "fr": "LA SUITE SE DESSINE",
+            "en": "SETTING THE STAGE"
           },
           "body": {
-            "fr": "Une étape de consolidation technique, sans nouvelle mécanique de jeu annoncée.",
-            "en": "A technical consolidation milestone with no new gameplay mechanic announced."
+            "fr": "Une journée plus discrète, consacrée à préparer les prochaines nouveautés.",
+            "en": "A quieter update focused on making room for what's next."
           },
           "tone": "muted"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "AJUSTEMENTS",
+        "en": "IMPROVEMENTS"
+      }
     },
     {
       "num": "1.0.0",
-      "tag": {
-        "fr": "PREMIER JALON",
-        "en": "FIRST MILESTONE"
-      },
       "title": {
-        "fr": "PERSONNALISATION, BUTIN ET LARGAGES",
-        "en": "CUSTOMIZATION, LOOT & DROPS"
+        "fr": "VOTRE STYLE, VOTRE COMBAT",
+        "en": "YOUR STYLE, YOUR FIGHT"
       },
       "date": "2026-10-11",
       "sections": [
         {
           "title": {
-            "fr": "PERSONNALISATION",
-            "en": "CUSTOMIZATION"
+            "fr": "FAITES-VOUS REMARQUER",
+            "en": "STAND OUT"
           },
           "tone": "accent",
           "items": [
             {
               "kind": "new",
               "title": {
-                "fr": "NOUVELLE COLLECTION D’EMBLÈMES",
-                "en": "NEW EMBLEM COLLECTION"
+                "fr": "DES EMBLÈMES QUI ONT DU CARACTÈRE",
+                "en": "EMBLEMS WITH PERSONALITY"
               },
               "body": {
-                "fr": "Ajout de nouveaux visuels au catalogue des emblèmes et mise à jour des données nécessaires à leur présentation.",
-                "en": "New artwork has been added to the emblem catalog, together with updates to its display data."
+                "fr": "De nouveaux emblèmes rejoignent la collection. Sobres, menaçants ou franchement audacieux : trouvez celui qui vous représente le mieux.",
+                "en": "Fresh emblems are joining the collection. Subtle, intimidating, or downright bold—find the one that fits you."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "NOUVELLES CARTES DE VISITE",
-                "en": "NEW PLAYER BANNERS"
+                "fr": "AFFICHEZ VOS COULEURS",
+                "en": "SHOW YOUR COLORS"
               },
               "body": {
-                "fr": "Enrichissement des bannières de profil avec de nouveaux visuels et leurs descriptions en français et en anglais.",
-                "en": "The player banner collection has been expanded with new artwork and French/English descriptions."
+                "fr": "La collection de cartes de visite s’agrandit avec de nouveaux visuels. Une occasion de soigner votre présentation avant même le premier échange de tirs.",
+                "en": "More calling cards are on the way, with new artwork to make your player profile stand out before the first shot is fired."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "PSEUDONYMES EN JEU",
-                "en": "IN-GAME PLAYER NAMETAGS"
+                "fr": "RECONNAISSEZ VOS ALLIÉS",
+                "en": "KNOW YOUR ALLIES"
               },
               "body": {
-                "fr": "Intégration d’un système de pseudonymes au-dessus des joueurs au sein du cœur du serveur.",
-                "en": "An in-game player nametag system has been integrated into the server core."
+                "fr": "Les pseudonymes des joueurs gagnent en visibilité sur le terrain, pour repérer plus facilement qui se trouve autour de vous.",
+                "en": "Player names are getting easier to spot in the world, helping you identify who's nearby at a glance."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "BUTIN ET ÉQUIPEMENT",
-            "en": "LOOT & LOADOUTS"
+            "fr": "LE BUTIN AU PREMIER PLAN",
+            "en": "LOOT TAKES CENTER STAGE"
           },
           "tone": "cyan",
           "items": [
             {
               "kind": "mod",
               "title": {
-                "fr": "INTERACTIONS AVEC LE BUTIN",
-                "en": "LOOT INTERACTIONS"
+                "fr": "MOINS DE TEMPS À CHERCHER",
+                "en": "LESS SEARCHING, MORE FIGHTING"
               },
               "body": {
-                "fr": "Amélioration de la détection des objets ciblés et du fonctionnement des interactions avec le butin au sol et les caisses.",
-                "en": "Target detection and interaction flows for ground loot and crates have been improved."
+                "fr": "Récupérer une arme ou ouvrir une caisse devient plus naturel. Les indications qui apparaissent à proximité du butin sont plus faciles à repérer.",
+                "en": "Picking up a weapon or opening a crate feels more natural, with clearer prompts as you approach loot."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "AMBIANCE SONORE DES CAISSES",
-                "en": "CRATE AUDIO CUES"
+                "fr": "ÉCOUTEZ BIEN...",
+                "en": "LISTEN CLOSELY..."
               },
               "body": {
-                "fr": "Ajout de sons de proximité pour les caisses et de bruitages associés aux interactions et ramassages.",
-                "en": "Proximity audio for crates and sound cues for interactions and pickups have been added."
+                "fr": "Les caisses se signalent aussi à l’oreille. Leur ambiance sonore et les nouveaux bruitages de ramassage apportent une touche de plus à l’exploration.",
+                "en": "Crates now have a little more presence in the soundscape. Nearby audio cues and fresh pickup sounds add another layer to exploration."
               }
             },
             {
               "kind": "mod",
               "title": {
-                "fr": "POINTS DE BUTIN À CAYO PERICO",
-                "en": "CAYO PERICO LOOT LOCATIONS"
+                "fr": "CAYO PERICO SE REMPLIT",
+                "en": "MORE TO FIND ON CAYO PERICO"
               },
               "body": {
-                "fr": "Travail sur la répartition et la configuration des emplacements de butin de la carte.",
-                "en": "Loot distribution and spawn-point configuration across the map have been refined."
+                "fr": "La répartition du butin évolue sur Cayo Perico pour rendre l’exploration plus intéressante d’un endroit à l’autre.",
+                "en": "Loot placement is evolving across Cayo Perico to make exploring different locations more rewarding."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "SÉLECTION DE CLASSE",
-                "en": "LOADOUT CLASS SELECTION"
+                "fr": "PRÉPAREZ VOTRE CLASSE",
+                "en": "GET YOUR LOADOUT READY"
               },
               "body": {
-                "fr": "Ajout d’une interface de sélection de classe et de son intégration avec les systèmes d’équipement.",
-                "en": "A loadout class selection interface and its equipment-system integration have been added."
+                "fr": "Une nouvelle sélection de classe prend forme pour retrouver plus facilement l’équipement avec lequel vous préférez partir au combat.",
+                "en": "A new loadout selection experience is taking shape, making it easier to head into battle with the gear you like most."
               }
             }
           ]
         },
         {
           "title": {
-            "fr": "AFFICHAGE ET OUTILS",
-            "en": "HUD & TOOLS"
+            "fr": "SUR LE TERRAIN",
+            "en": "OUT IN THE FIELD"
           },
-          "tone": "muted",
+          "tone": "hot",
           "items": [
             {
               "kind": "mod",
               "title": {
-                "fr": "REPÈRES ET INDICATIONS",
-                "en": "WAYPOINTS & MARKERS"
+                "fr": "LE BON REPÈRE AU BON MOMENT",
+                "en": "THE RIGHT CUE AT THE RIGHT TIME"
               },
               "body": {
-                "fr": "Améliorations des repères de navigation et des informations contextuelles affichées dans le HUD.",
-                "en": "Navigation markers and contextual information in the HUD have been refined."
+                "fr": "Les repères et les indications à l’écran ont été ajustés pour vous guider plus clairement, sans masquer l’action.",
+                "en": "On-screen markers and prompts have been refined to guide you without getting in the way of the action."
               }
             },
             {
               "kind": "new",
               "title": {
-                "fr": "OUTILS DE PLACEMENT",
-                "en": "SPAWN PLACEMENT TOOLS"
+                "fr": "DU RAVITAILLEMENT À L’HORIZON",
+                "en": "SUPPLIES ON THE HORIZON"
               },
               "body": {
-                "fr": "Développement d’outils internes destinés à générer et contrôler les points de butin et de véhicules.",
-                "en": "Internal tools have been developed to generate and review loot and vehicle spawn points."
-              }
-            },
-            {
-              "kind": "new",
-              "title": {
-                "fr": "PREMIERS TRAVAUX SUR LES LARGAGES",
-                "en": "EARLY SUPPLY-DROP WORK"
-              },
-              "body": {
-                "fr": "Développement d’une première implémentation des largages aériens. Cette base a ensuite été remaniée et archivée lors des étapes suivantes.",
-                "en": "An early supply-drop implementation was developed. This version was subsequently reworked and archived in later milestones."
+                "fr": "Des largages aériens sont également en préparation. Une nouvelle raison de lever les yeux au ciel... et de surveiller les alentours.",
+                "en": "Supply drops are also on the horizon. One more reason to look to the skies—and keep an eye on your surroundings."
               }
             }
           ]
@@ -1136,31 +993,35 @@
             "en": "CUSTOMIZATION"
           },
           "title": {
-            "fr": "EMBLÈMES ET BANNIÈRES",
-            "en": "EMBLEMS & BANNERS"
+            "fr": "AFFIRMEZ VOTRE STYLE",
+            "en": "MAKE IT YOURS"
           },
           "body": {
-            "fr": "Une nouvelle série d’éléments visuels pour personnaliser les profils.",
-            "en": "A new range of visuals to personalize player profiles."
+            "fr": "De nouveaux emblèmes et cartes de visite pour donner du caractère à votre profil.",
+            "en": "Fresh emblems and calling cards to give your profile some personality."
           },
           "tone": "accent"
         },
         {
           "label": {
-            "fr": "QUALITÉ DE VIE",
-            "en": "QUALITY OF LIFE"
+            "fr": "SUR LE TERRAIN",
+            "en": "ON THE GROUND"
           },
           "title": {
-            "fr": "BUTIN PLUS LISIBLE",
-            "en": "CLEARER LOOT"
+            "fr": "LE BUTIN SE FAIT REMARQUER",
+            "en": "LOOT GETS A NEW FEEL"
           },
           "body": {
-            "fr": "Interactions, repères et sons de proximité retravaillés.",
-            "en": "Updated interactions, markers and proximity audio cues."
+            "fr": "Des interactions et des sons retravaillés pour mieux profiter de chaque trouvaille.",
+            "en": "Better loot interactions and audio cues to make every find feel more satisfying."
           },
           "tone": "cyan"
         }
-      ]
+      ],
+      "tag": {
+        "fr": "PREMIERS AJOUTS",
+        "en": "FIRST ADDITIONS"
+      }
     }
   ]
 }
